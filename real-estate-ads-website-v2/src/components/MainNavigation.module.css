@@ -1,0 +1,38 @@
+/* header {
+  border: 2px solid;
+  border-color: aquamarine;
+} */
+
+.brand {
+  margin-top: 50px;
+  font-family: "Helvetica_neue_regular";
+  font-size: 28px;
+}
+.brand > span {
+  /* border: 2px solid blue; */
+  display: block;
+  text-align: center;
+}
+
+nav {
+  margin-top: 25px;
+  height: 50px;
+  /* border: 2px solid pink; */
+}
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+nav > ul > li {
+  list-style: none;
+  font-family: "Helvetica_neue_regular";
+  font-size: 20px;
+  line-height: 50px;
+  border: 1px solid grey;
+}
+
+nav > ul > li a {
+  text-decoration: none;
+  padding: 20px;
+}
