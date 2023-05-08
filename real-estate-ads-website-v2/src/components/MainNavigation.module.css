@@ -4,7 +4,7 @@
 } */
 
 .brand {
-  margin-top: 50px;
+  padding-top: 50px;
   font-family: "Helvetica_neue_regular";
   font-size: 28px;
 }
@@ -17,7 +17,7 @@
 nav {
   margin-top: 25px;
   height: 50px;
-  /* border: 2px solid pink; */
+  border: 1px solid lightgrey;
 }
 nav > ul {
   display: flex;
@@ -29,10 +29,55 @@ nav > ul > li {
   font-family: "Helvetica_neue_regular";
   font-size: 20px;
   line-height: 50px;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  position: relative;
 }
 
 nav > ul > li a {
   text-decoration: none;
+  color: black;
   padding: 20px;
+  /* position: relative; */
+}
+
+nav > ul > li > a::before {
+  content: "";
+  bottom: 0px;
+  right: 50%;
+  position: absolute;
+  opacity: 0;
+}
+
+nav > ul > li > a::after {
+  content: "";
+  bottom: 0px;
+  left: 50%;
+  position: absolute;
+  opacity: 0;
+}
+
+nav > ul > li > a:hover:before,
+a:hover:after {
+  border-bottom: 3px solid #00337c;
+  animation-name: line-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes line-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+    opacity: 1;
+  }
+}
+
+nav > ul > li > a.active::before,
+a.active::after {
+  border-bottom: 3px solid #00337c;
+  width: 50%;
+  opacity: 1;
 }

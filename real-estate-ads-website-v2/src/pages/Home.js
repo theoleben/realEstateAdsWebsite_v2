@@ -2,6 +2,7 @@ import React from "react";
 import backgrd from "../img/background.jpg";
 import classes from "./Home.module.css";
 import data from "../data/realEstate";
+import Card from "../components/Card";
 
 const Home = () => {
   return (
@@ -13,31 +14,18 @@ const Home = () => {
           console.log(realEstate);
           return (
             <li key={realEstate.id} className={classes.item}>
-              <div className={classes.card}>
-                <img src={realEstate.photo.p1} alt="Description" />
-                <p>
-                  {`${realEstate.title}, ${realEstate.location}, ${realEstate.pieces} pièces, ${realEstate.surface} m²`}
-                </p>
-                <span>{realEstate.price}</span>
-                <button>Voir le détail</button>
-              </div>
+              <Card
+                photo={realEstate.photo.p1}
+                title={realEstate.title}
+                location={realEstate.location}
+                pieces={realEstate.pieces}
+                surface={realEstate.surface}
+                price={realEstate.price}
+              />
             </li>
           );
         })}
       </ul>
-      {/* <div className={classes.card}>
-        
-        <hr />
-        <span>Appartement</span>
-        <span>Appartement</span>
-        <span>Appartement</span>
-        <span>Appartement</span>
-        <span>Appartement</span>
-        <div>
-          <span>1 500 000 €</span>
-        </div>
-        <button>Voir le détail</button>
-      </div> */}
     </React.Fragment>
   );
 };
