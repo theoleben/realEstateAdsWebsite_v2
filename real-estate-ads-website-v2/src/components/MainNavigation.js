@@ -7,7 +7,7 @@ const MainNavigation = () => {
   console.log("MainNavigation");
   return (
     <Fragment>
-      <LogoComponent />
+      <LogoComponent className={classes.logo} />
       <header className={classes.header}>
         {/* <img src={logo} alt="Website logo" /> */}
 

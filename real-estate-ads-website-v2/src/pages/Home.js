@@ -11,17 +11,10 @@ const Home = () => {
       <h1>Nos dernières découvertes</h1>
       <ul className={classes.container}>
         {data.map((realEstate) => {
-          console.log(realEstate);
+          // console.log(realEstate);
           return (
             <li key={realEstate.id} className={classes.item}>
-              <Card
-                photo={realEstate.photo.p1}
-                title={realEstate.title}
-                location={realEstate.location}
-                pieces={realEstate.pieces}
-                surface={realEstate.surface}
-                price={realEstate.price}
-              />
+              <Card data={realEstate} />
             </li>
           );
         })}

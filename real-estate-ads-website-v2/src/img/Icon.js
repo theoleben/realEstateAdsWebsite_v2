@@ -1,7 +1,6 @@
 import React from "react";
-import classes from "./Icon.module.css";
 
-function Icon() {
+function Icon(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,6 +9,7 @@ function Icon() {
       height="60mm"
       version="1.1"
       viewBox="0 0 26 60"
+      className={props.className}
     >
       <defs>
         <linearGradient id="linearGradient7700">

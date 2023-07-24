@@ -3,6 +3,14 @@
   border-color: aquamarine;
 } */
 
+.logo {
+  width: 30px;
+  height: 70px;
+  position: absolute;
+  left: 50px;
+  top: 25px;
+}
+
 .brand {
   padding-top: 50px;
   font-family: "Helvetica_neue_regular";
