@@ -1,13 +1,13 @@
-import ARA_prop1 from "../img/ARA_prop1.jpg";
-import ARA_prop2 from "../img/ARA_prop2.jpg";
-import ARA_prop3 from "../img/ARA_prop3.jpg";
-import BRE_prop1 from "../img/BRE_prop1.jpg";
-import HDF_prop1 from "../img/HDF_prop1.jpg";
-import HDF_prop2 from "../img/HDF_prop2.jpg";
-import HDF_prop3 from "../img/HDF_prop3.jpg";
-import IDF_prop1 from "../img/IDF_prop1.jpg";
-import IDF_prop2 from "../img/IDF_prop2.jpg";
-import NOR_prop1 from "../img/NOR_prop1.jpg";
+import ARA_prop1 from "../img/properties/ARA_prop1.jpg";
+import ARA_prop2 from "../img/properties/ARA_prop2.jpg";
+import ARA_prop3 from "../img/properties/ARA_prop3.jpg";
+import BRE_prop1 from "../img/properties/BRE_prop1.jpg";
+import HDF_prop1 from "../img/properties/HDF_prop1.jpg";
+import HDF_prop2 from "../img/properties/HDF_prop2.jpg";
+import HDF_prop3 from "../img/properties/HDF_prop3.jpg";
+import IDF_prop1 from "../img/properties/IDF_prop1.jpg";
+import IDF_prop2 from "../img/properties/IDF_prop2.jpg";
+import NOR_prop1 from "../img/properties/NOR_prop1.jpg";
 
 const DUMMY_REALESTATE = [
   {

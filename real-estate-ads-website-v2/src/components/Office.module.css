@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  min-height: 200px;
+  margin-top: 50px;
+  border: 1px solid black;
+  outline: solid;
+  outline-offset: 1px;
+  outline-width: 1px;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 2.6px;
+}
+
+.image {
+  background-color: lightgray;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image > span {
+  margin-top: 10px;
+}
+
+.image a {
+  text-decoration: none;
+  color: black;
+}
+
+.image > img {
+  width: 256px;
+  height: 192px;
+  object-fit: contain;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.info > span {
+  display: block;
+  text-align: center;
+  font-size: 26px;
+}
+
+.info > p {
+  text-indent: 25px;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.container-infos {
+  background: rgb(250, 234, 177);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 234, 177, 1) 0%,
+    rgba(229, 186, 115, 1) 100%
+  );
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-info {
+  display: flex;
+}
+
+.container-info > span {
+  line-height: 30px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.container-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.icon-phone {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
