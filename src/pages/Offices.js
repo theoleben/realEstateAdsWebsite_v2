@@ -9,7 +9,7 @@ const Offices = () => {
   return (
     <ul className={classes.container}>
       {officesData.map((office) => {
-        console.log(office);
+        // console.log(office);
         return (
           <li key={office.id} className={classes.item}>
             <Office data={office} />

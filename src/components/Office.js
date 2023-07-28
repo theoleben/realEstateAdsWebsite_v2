@@ -14,7 +14,11 @@ const Office = (props) => {
         />
         <span>
           Crédits: {props.data.thumbnail.author} -{" "}
-          <a href={props.data.thumbnail.license.url} target="_blank">
+          <a
+            href={props.data.thumbnail.license.url}
+            target="_blank"
+            rel="noreferrer"
+          >
             {props.data.thumbnail.license.name}
           </a>
         </span>

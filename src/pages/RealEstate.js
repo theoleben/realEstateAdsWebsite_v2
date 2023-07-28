@@ -54,7 +54,7 @@ const RealEstate = () => {
   };
 
   const budgetHandler = (event) => {
-    console.log(event.target.value);
+    // console.log(event.target.value);
     const budget = parseInt(event.target.value, 10);
     setBudget(budget);
   };

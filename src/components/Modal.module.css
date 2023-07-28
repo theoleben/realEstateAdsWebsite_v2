@@ -1,0 +1,79 @@
+.modal {
+  position: fixed;
+  top: 20vh;
+  width: 50%;
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 25%;
+  z-index: 30;
+  padding: 20px;
+}
+
+.modal > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  color: #54b435;
+  font-size: 70px;
+  animation-name: iconAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes iconAnimation {
+  0% {
+    transform: translateX(-200px) scale(0.25);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.resume {
+  display: block;
+  margin-top: 10px;
+}
+
+.content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content > span {
+  margin-bottom: 10px;
+}
+
+.modal div:nth-last-child(1) {
+  position: relative;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.modal button {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  right: 50px;
+  border-style: solid;
+  border-color: lightgrey;
+}
+
+.modal button:hover {
+  border-color: #00337c;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
