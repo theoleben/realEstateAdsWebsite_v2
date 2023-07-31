@@ -1,5 +1,5 @@
-import React, { Fragment, useState } from "react";
-import { Outlet } from "react-router-dom";
+import React, { Fragment, useEffect, useState } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
@@ -13,6 +13,13 @@ const Root = () => {
     // console.log(value);
     setCartIsShown(value);
   };
+
+  const location = useLocation();
+  //   console.log(location);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <Fragment>

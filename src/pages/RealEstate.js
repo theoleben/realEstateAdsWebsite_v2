@@ -1,40 +1,46 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useCallback, useEffect, useState } from "react";
 
 import { AiOutlineSearch } from "react-icons/ai";
 import classes from "./RealEstate.module.css";
 import data from "../data/realEstate";
 import Card from "../components/Card";
+import { useLocation /*useParams*/ } from "react-router-dom";
+
+const INCORRECT_VALUE = "incorrect_value";
+const regions = [
+  "Auvergne-Rhône-Alpes",
+  "Bourgogne-Franche-Comté",
+  "Bretagne",
+  "Centre-Val de Loire",
+  "Corse",
+  "Grand Est",
+  "Hauts-de-France",
+  "Île-de-France",
+  "Normandie",
+  "Nouvelle-Aquitaine",
+  "Occitanie",
+  "Pays de la Loire",
+  "Provence-Alpes-Côte d'Azur",
+];
 
 const RealEstate = () => {
-  const INCORRECT_VALUE = "incorrect_value";
-  const regions = [
-    "Auvergne-Rhône-Alpes",
-    "Bourgogne-Franche-Comté",
-    "Bretagne",
-    "Centre-Val de Loire",
-    "Corse",
-    "Grand Est",
-    "Hauts-de-France",
-    "Île-de-France",
-    "Normandie",
-    "Nouvelle-Aquitaine",
-    "Occitanie",
-    "Pays de la Loire",
-    "Provence-Alpes-Côte d'Azur",
-  ];
-
   const [transaction, setTransaction] = useState(INCORRECT_VALUE);
   const [region, setRegion] = useState(INCORRECT_VALUE);
   const [bedrooms, setBedrooms] = useState(INCORRECT_VALUE);
   const [surface, setSurface] = useState(0);
   const [budget, setBudget] = useState(0);
   const [filteredRealEstate, setFilteredRealEstate] = useState(data);
+  const [enable, setEnable] = useState(false);
 
   // console.log(data);
+
+  // console.log("** transaction **", transaction);
+  // console.log("** enable **", enable);
 
   const transactionHandler = (event) => {
     // console.log(event.target.value);
     setTransaction(event.target.value);
+    setEnable(false);
   };
 
   const regionHandler = (event) => {
@@ -59,14 +65,8 @@ const RealEstate = () => {
     setBudget(budget);
   };
 
-  const searchHandler = () => {
-    // console.log(transaction);
-    // console.log(region);
-    // console.log(surface);
-    // console.log(typeof surface);
-    // console.log(budget);
-    // console.log(typeof budget);
-    // Transaction
+  const searchHandler = useCallback(() => {
+    // console.log("** searchHandler **");
     let result = data.filter((realEstate) => {
       return (
         transaction === INCORRECT_VALUE ||
@@ -98,7 +98,30 @@ const RealEstate = () => {
     setFilteredRealEstate(result);
 
     // console.log(result.length);
-  };
+  }, [bedrooms, budget, region, surface, transaction]);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    // console.log("useEffect1");
+    if (location.pathname === "/real-estate/buy") {
+      // console.log("update");
+      setTransaction("Achat");
+      setEnable(true);
+    } else if (location.pathname === "/real-estate/rent") {
+      // console.log("update");
+      setTransaction("Location");
+      setEnable(true);
+    }
+  }, [location]);
+
+  useEffect(() => {
+    // console.log("useEffect2");
+    if (enable && (transaction === "Achat" || transaction === "Location")) {
+      // console.log("search");
+      searchHandler();
+    }
+  }, [enable, transaction, searchHandler]);
 
   return (
     <Fragment>

@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "real-estate",
+        path: "real-estate/:transaction?",
         element: <RealEstate />,
       },
       {
