@@ -10,10 +10,10 @@ const Footer = () => {
         <ul>
           <li>Services</li>
           <li>
-            <Link to="real-estate/buy">Achat</Link>
+            <Link to="real-estate/transaction/buy">Achat</Link>
           </li>
           <li>
-            <Link to="real-estate/rent">Location</Link>
+            <Link to="real-estate/transaction/rent">Location</Link>
           </li>
         </ul>
         <ul>

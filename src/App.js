@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import RealEstate from "./pages/RealEstate";
 import Offices from "./pages/Offices";
 import Contact from "./pages/Contact";
+import RealEstateDetails from "./components/RealEstateDetails";
+import RealEstateLayout from "./pages/RealEstateLayout";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +19,26 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "real-estate/:transaction?",
-        element: <RealEstate />,
+        path: "real-estate",
+        element: <RealEstateLayout />,
+        children: [
+          {
+            index: true,
+            element: <RealEstate />,
+          },
+          {
+            path: "transaction/:transaction?",
+            element: <RealEstate />,
+          },
+          {
+            path: "detail/:realEstateId",
+            element: <RealEstateDetails />,
+            // loader: () => {
+            //   console.log("loader");
+            //   return { name: "hello" };
+            // },
+          },
+        ],
       },
       {
         path: "offices",

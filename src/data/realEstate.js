@@ -35,7 +35,8 @@ const DUMMY_REALESTATE = [
     pieces: "4",
     bedrooms: "3",
     surface: "150",
-    description: "Description test",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus ipsum, gravida in vehicula vitae, ultrices quis mi. Fusce congue convallis tellus at vestibulum. Vestibulum suscipit facilisis orci ac condimentum. Duis a gravida libero. Ut ullamcorper ac erat id luctus. Aliquam sapien dui, elementum quis orci a, euismod fermentum est. Vestibulum viverra metus ut sapien lacinia, quis ullamcorper nisi luctus. Maecenas placerat dolor pretium rutrum commodo. Duis condimentum erat eu consequat suscipit. Nulla facilisi. Integer facilisis elit scelerisque, bibendum metus ornare, semper est. In tincidunt risus quis urna commodo vehicula. Quisque non sollicitudin dolor. Maecenas molestie quam vel metus feugiat, sed tincidunt eros condimentum. Cras fringilla, sem nec facilisis vehicula, metus ligula feugiat mi, non sagittis justo risus in ligula. Morbi ipsum odio, hendrerit in libero non, rhoncus suscipit risus.",
     photo: {
       p1: ARA_prop2,
     },

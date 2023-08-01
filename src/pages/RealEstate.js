@@ -24,6 +24,7 @@ const regions = [
 ];
 
 const RealEstate = () => {
+  // console.log("RealEstate");
   const [transaction, setTransaction] = useState(INCORRECT_VALUE);
   const [region, setRegion] = useState(INCORRECT_VALUE);
   const [bedrooms, setBedrooms] = useState(INCORRECT_VALUE);
@@ -104,11 +105,11 @@ const RealEstate = () => {
 
   useEffect(() => {
     // console.log("useEffect1");
-    if (location.pathname === "/real-estate/buy") {
+    if (location.pathname === "/real-estate/transaction/buy") {
       // console.log("update");
       setTransaction("Achat");
       setEnable(true);
-    } else if (location.pathname === "/real-estate/rent") {
+    } else if (location.pathname === "/real-estate/transaction/rent") {
       // console.log("update");
       setTransaction("Location");
       setEnable(true);
