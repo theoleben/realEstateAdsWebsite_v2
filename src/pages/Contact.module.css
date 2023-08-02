@@ -46,3 +46,9 @@
 .form > button:hover {
   border-color: #00337c;
 }
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 90%;
+  }
+}

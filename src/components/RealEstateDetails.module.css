@@ -3,22 +3,23 @@
   margin: 0 auto;
 }
 
-.container h2 {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
 .subcontainer {
   width: 100%;
   display: flex;
   border: 1px solid black;
   box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 2.6px;
   margin-bottom: 40px;
+  background: rgb(250, 234, 177);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 234, 177, 1) 0%,
+    rgba(229, 186, 115, 1) 100%
+  );
 }
 
 .subcontainer > div:nth-child(1) {
   width: 60%;
+  background-color: aliceblue;
 }
 
 .subcontainer img {
@@ -29,17 +30,11 @@
 
 .subcontainer > div:nth-child(2) {
   width: 40%;
-  background: rgb(250, 234, 177);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 234, 177, 1) 0%,
-    rgba(229, 186, 115, 1) 100%
-  );
   display: flex;
   align-items: center;
 }
 
-.subcontainer > div:nth-child(2) > div {
+.details-container {
   border-top: 2px dotted #00337c;
   border-bottom: 2px dotted #00337c;
   padding-top: 40px;
@@ -160,5 +155,31 @@
   }
   100% {
     color: white;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .subcontainer {
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .subcontainer > div:nth-child(1) {
+    width: 100%;
+  }
+
+  .subcontainer > div:nth-child(2) {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subcontainer {
+    width: 90%;
   }
 }

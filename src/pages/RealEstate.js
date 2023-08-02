@@ -160,7 +160,7 @@ const RealEstate = () => {
             <input
               type="number"
               min="0"
-              placeholder="Surface minimum"
+              placeholder="Surface min"
               onChange={surfaceHandler}
             />
           </div>
@@ -170,7 +170,7 @@ const RealEstate = () => {
             <input
               type="number"
               min="0"
-              placeholder="Budget maximum"
+              placeholder="Budget max"
               onChange={budgetHandler}
             />
           </div>

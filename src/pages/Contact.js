@@ -79,43 +79,46 @@ const Contact = () => {
   };
 
   return (
-    <form onSubmit={submitHandler} className={classes.form}>
-      <input
-        type="text"
-        placeholder="Nom *"
-        onChange={nameChangeHandler}
-        value={formState.name}
-        required
-      />
-      <input
-        type="text"
-        placeholder="Prénom *"
-        onChange={surnameChangeHandler}
-        value={formState.surname}
-        required
-      />
-      <input
-        type="email"
-        placeholder="Adresse mail *"
-        onChange={mailChangeHandler}
-        value={formState.mail}
-        required
-      />
-      <input
-        type="text"
-        placeholder="Téléphone"
-        value={formState.phone}
-        onChange={phoneChangeHandler}
-      />
-      <textarea
-        // rows="5"
-        // cols="33"
-        onChange={messageChangeHandler}
-        value={formState.message}
-        placeholder="Votre message"
-      ></textarea>
-      <button>Envoyer</button>
-    </form>
+    <>
+      <h2>Nous contacter</h2>
+      <form onSubmit={submitHandler} className={classes.form}>
+        <input
+          type="text"
+          placeholder="Nom *"
+          onChange={nameChangeHandler}
+          value={formState.name}
+          required
+        />
+        <input
+          type="text"
+          placeholder="Prénom *"
+          onChange={surnameChangeHandler}
+          value={formState.surname}
+          required
+        />
+        <input
+          type="email"
+          placeholder="Adresse mail *"
+          onChange={mailChangeHandler}
+          value={formState.mail}
+          required
+        />
+        <input
+          type="text"
+          placeholder="Téléphone"
+          value={formState.phone}
+          onChange={phoneChangeHandler}
+        />
+        <textarea
+          // rows="5"
+          // cols="33"
+          onChange={messageChangeHandler}
+          value={formState.message}
+          placeholder="Votre message"
+        ></textarea>
+        <button>Envoyer</button>
+      </form>
+    </>
   );
 };
 

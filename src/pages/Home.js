@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <img src={backgrd} alt="Banner" className={classes.banner} />
-      <h1>Nos dernières découvertes</h1>
+      <h2>Nos dernières découvertes</h2>
       <ul className={classes.container}>
         {data.map((realEstate) => {
           // console.log(realEstate);

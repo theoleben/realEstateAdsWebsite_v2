@@ -7,6 +7,7 @@
 }
 
 .container2 {
+  width: 70%;
   background: rgb(250, 234, 177);
   background: linear-gradient(
     90deg,
@@ -14,8 +15,6 @@
     rgba(229, 186, 115, 1) 100%
   );
   display: flex;
-  height: 60px;
-  width: 70%;
   justify-content: space-evenly;
   padding: 10px;
   border: 1px solid black;
@@ -25,19 +24,12 @@
   outline: none;
   border-width: 2px;
   border-color: lightgrey;
-}
-
-.container select:nth-child(1) {
-  width: 150px;
+  height: 40px;
 }
 
 /* .container select option[value="not_value"] {
   display: none;
 } */
-
-.container select:nth-child(2) {
-  width: 200px;
-}
 
 .container select:focus,
 .container input:focus {
@@ -61,8 +53,9 @@
   border-color: lightgrey;
   outline: none;
   height: 40px;
-  width: 140px;
+  width: 130px;
   padding-right: 25px;
+  padding-left: 5px;
 }
 
 .container-button {
@@ -70,7 +63,7 @@
 }
 
 .container button {
-  width: 120px;
+  width: 150px;
   height: 40px;
   font-size: 16px;
   border-style: solid;
@@ -115,4 +108,42 @@
 
 .container3 > span {
   font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container2 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container2 {
+    width: 50%;
+    flex-direction: column;
+  }
+
+  .container input {
+    width: 100%;
+  }
+
+  .container-button {
+    width: 150px;
+  }
+
+  .container select,
+  .container input {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container2 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container2 {
+    width: 90%;
+  }
 }

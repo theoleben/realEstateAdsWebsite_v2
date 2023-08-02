@@ -7,16 +7,19 @@ const Offices = () => {
   // console.log(officesData);
 
   return (
-    <ul className={classes.container}>
-      {officesData.map((office) => {
-        // console.log(office);
-        return (
-          <li key={office.id} className={classes.item}>
-            <Office data={office} />
-          </li>
-        );
-      })}
-    </ul>
+    <>
+      <h2>Nos agences immoblières</h2>
+      <ul className={classes.container}>
+        {officesData.map((office) => {
+          // console.log(office);
+          return (
+            <li key={office.id}>
+              <Office data={office} />
+            </li>
+          );
+        })}
+      </ul>
+    </>
   );
 };
 

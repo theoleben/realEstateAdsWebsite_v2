@@ -16,11 +16,11 @@ const RealEstateDetail = () => {
     <div className={classes.container}>
       <h2>{found.title}</h2>
       <div className={classes.subcontainer}>
-        <div>
+        <div className={classes["img-container"]}>
           <img src={found.photo.p1} alt="Description" />
         </div>
         <div>
-          <div>
+          <div className={classes["details-container"]}>
             <span>Localisation: {found.location}</span>
             <span>Région: {found.region}</span>
             <span>Nombre de pièces: {found.pieces}</span>

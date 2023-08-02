@@ -4,38 +4,42 @@
 } */
 
 .logo {
-  width: 30px;
-  height: 70px;
   position: absolute;
+  width: 50px;
+  height: 50px;
   left: 50px;
   top: 25px;
+  color: rgba(229, 186, 115, 1);
 }
 
 .brand {
   padding-top: 50px;
-  font-family: "Helvetica_neue_regular";
-  font-size: 28px;
 }
+
 .brand > span {
   /* border: 2px solid blue; */
   display: block;
+  font-family: "Lora_regular";
+  font-size: 40px;
+  font-weight: 400;
   text-align: center;
 }
 
 nav {
-  margin-top: 25px;
-  height: 50px;
+  margin-top: 50px;
+  /* height: 50px; */
   border: 1px solid lightgrey;
 }
+
 nav > ul {
   display: flex;
   justify-content: space-evenly;
-  height: 50px;
+  /* height: 50px; */
 }
+
 nav > ul > li {
   list-style: none;
-  font-family: "Helvetica_neue_regular";
-  font-size: 20px;
+  font-size: 18px;
   line-height: 50px;
   /* border: 1px solid grey; */
   position: relative;
@@ -44,7 +48,7 @@ nav > ul > li {
 nav > ul > li a {
   text-decoration: none;
   color: black;
-  padding: 20px;
+  /* padding: 20px; */
   /* position: relative; */
 }
 
@@ -65,7 +69,7 @@ nav > ul > li > a::after {
 }
 
 nav > ul > li > a:hover:before,
-a:hover:after {
+nav > ul > li > a:hover:after {
   border-bottom: 3px solid #00337c;
   animation-name: line-animation;
   animation-duration: 0.5s;
@@ -88,4 +92,29 @@ a.active::after {
   border-bottom: 3px solid #00337c;
   width: 50%;
   opacity: 1;
+}
+
+@media screen and (max-width: 576px) {
+  nav > ul {
+    flex-direction: column;
+  }
+
+  nav > ul > li {
+    text-align: center;
+  }
+
+  @keyframes line-animation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 15%;
+      opacity: 1;
+    }
+  }
+
+  nav > ul > li > a.active::before,
+  a.active::after {
+    width: 15%;
+  }
 }

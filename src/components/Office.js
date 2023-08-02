@@ -24,7 +24,7 @@ const Office = (props) => {
         </span>
       </div>
       <div className={classes.info}>
-        <span>{props.data.name}</span>
+        <h3>{props.data.name}</h3>
         <p>{props.data.description}</p>
 
         <div className={classes["container-infos"]}>

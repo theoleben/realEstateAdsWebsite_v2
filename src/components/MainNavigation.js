@@ -1,26 +1,22 @@
 import React, { Fragment } from "react";
 import classes from "./MainNavigation.module.css";
+import LogoBanner from "./LogoBanner";
 import { NavLink } from "react-router-dom";
-import LogoComponent from "../img/Icon";
+import { MdOutlineRealEstateAgent } from "react-icons/md";
 
 const MainNavigation = () => {
-  console.log("MainNavigation");
+  // console.log("MainNavigation");
   return (
     <Fragment>
-      <LogoComponent className={classes.logo} />
+      <MdOutlineRealEstateAgent className={classes.logo} />
+      <LogoBanner />
       <header className={classes.header}>
-        {/* <img src={logo} alt="Website logo" /> */}
-
         <div className={classes.brand}>
           <span>Théo LEBEN</span>
-          <span>Appartements et maisons de prestige</span>
+          <h1>Appartements et maisons de prestige</h1>
         </div>
         <nav className={classes.nav}>
           <ul>
-            {/* <li>Accueil</li>
-          <li>Rechercher</li>
-          <li>Nos bureaux</li>
-          <li>Nous contacter</li> */}
             <li>
               <NavLink
                 to=""

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 150px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.container > li:hover {
+  transform: scale(1.3);
+}
