@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 
 const Card = (props) => {
   // console.log(props);
+
+  const cardStyle = props.type === "Home" ? classes["card-home"] : classes.card;
+
   return (
-    <div className={classes.card}>
+    <div className={cardStyle}>
       <img src={props.data.photo.p1} alt="Description" />
       <div className={classes.details}>
         <p>{`${props.data.title}, ${props.data.location}`}</p>

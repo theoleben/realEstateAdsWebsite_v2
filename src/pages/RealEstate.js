@@ -191,7 +191,7 @@ const RealEstate = () => {
             // console.log(realEstate);
             return (
               <li key={realEstate.id} className={classes.item}>
-                <Card data={realEstate} />
+                <Card data={realEstate} type="Search" />
               </li>
             );
           })}
