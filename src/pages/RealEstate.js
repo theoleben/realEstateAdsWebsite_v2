@@ -47,23 +47,27 @@ const RealEstate = () => {
   const regionHandler = (event) => {
     // console.log(event.target.value);
     setRegion(event.target.value);
+    setEnable(false);
   };
 
   const bedroomsHandler = (event) => {
     // console.log(event.target.value);
     setBedrooms(event.target.value);
+    setEnable(false);
   };
 
   const surfaceHandler = (event) => {
     // console.log(event.target.value);
     const surface = parseInt(event.target.value, 10);
     setSurface(surface);
+    setEnable(false);
   };
 
   const budgetHandler = (event) => {
     // console.log(event.target.value);
     const budget = parseInt(event.target.value, 10);
     setBudget(budget);
+    setEnable(false);
   };
 
   const searchHandler = useCallback(() => {

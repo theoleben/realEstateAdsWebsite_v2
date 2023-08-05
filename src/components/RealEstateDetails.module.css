@@ -3,60 +3,57 @@
   margin: 0 auto;
 }
 
-.subcontainer {
-  width: 100%;
-  display: flex;
-  border: 1px solid black;
-  box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 2.6px;
-  margin-bottom: 40px;
-  background: rgb(250, 234, 177);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 234, 177, 1) 0%,
-    rgba(229, 186, 115, 1) 100%
-  );
-}
-
-.subcontainer > div:nth-child(1) {
-  width: 60%;
-  background-color: aliceblue;
-}
-
-.subcontainer img {
-  width: 100%;
-  height: 500px;
+.container img {
+  width: 50%;
   object-fit: cover;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
-.subcontainer > div:nth-child(2) {
-  width: 40%;
+.container ul {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container ul li {
+  width: 33.3%;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
-.details-container {
-  border-top: 2px dotted #00337c;
-  border-bottom: 2px dotted #00337c;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.container ul svg {
+  font-size: 25px;
+  color: rgba(229, 186, 115, 1);
+}
+
+.container ul span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.container > div:nth-child(4) {
+  width: 80%;
   margin: 0 auto;
 }
 
-.container span {
-  font-size: xx-large;
+.container > div:nth-child(4) > span {
+  font-size: 24px;
 }
 
 .container p {
   margin-top: 20px;
-  font-size: 20px;
-}
-
-.subcontainer span {
-  font-size: x-large;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .button-container {
@@ -155,31 +152,5 @@
   }
   100% {
     color: white;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .subcontainer {
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin: 0 auto;
-    margin-bottom: 40px;
-  }
-
-  .subcontainer > div:nth-child(1) {
-    width: 100%;
-  }
-
-  .subcontainer > div:nth-child(2) {
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .subcontainer {
-    width: 90%;
   }
 }

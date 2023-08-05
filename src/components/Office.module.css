@@ -7,7 +7,7 @@
 }
 
 .image {
-  background-color: #f6f1e9;
+  background-color: rgb(206, 230, 243, 0.4);
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -43,12 +43,7 @@
 }
 
 .container-infos {
-  background: rgb(250, 234, 177);
-  background: linear-gradient(
-    90deg,
-    rgba(250, 234, 177, 1) 0%,
-    rgba(229, 186, 115, 1) 100%
-  );
+  background-color: rgb(223, 168, 120, 0.4);
   margin-top: 20px;
   padding: 5px;
   display: flex;

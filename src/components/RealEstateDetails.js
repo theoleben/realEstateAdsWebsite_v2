@@ -2,6 +2,11 @@ import React from "react";
 import classes from "./RealEstateDetails.module.css";
 import { Link, useParams } from "react-router-dom";
 import data from "../data/realEstate";
+import { BiArea } from "react-icons/bi";
+import { PiPuzzlePieceBold } from "react-icons/pi";
+import { MdOutlineEuro } from "react-icons/md";
+import { IoLocationOutline } from "react-icons/io5";
+import { FaRegMap } from "react-icons/fa6";
 
 const RealEstateDetail = () => {
   const params = useParams();
@@ -15,28 +20,41 @@ const RealEstateDetail = () => {
   return (
     <div className={classes.container}>
       <h2>{found.title}</h2>
-      <div className={classes.subcontainer}>
-        <div className={classes["img-container"]}>
-          <img src={found.photo.p1} alt="Description" />
-        </div>
-        <div>
-          <div className={classes["details-container"]}>
-            <span>Localisation: {found.location}</span>
-            <span>Région: {found.region}</span>
-            <span>Nombre de pièces: {found.pieces}</span>
-            <span>Superficie: {found.surface} m²</span>
-            <span className={classes.price}>
-              {found.transaction === "Achat"
-                ? `Prix: ${found.price} €`
-                : `Prix: ${found.price} € / mois`}
-            </span>
-          </div>
-        </div>
+      <img src={found.photo.p1} alt="Description" />
+      <ul>
+        <li>
+          <IoLocationOutline />
+          <span>{found.location}</span>
+        </li>
+        <li>
+          <FaRegMap />
+          <span>{found.region}</span>
+        </li>
+        <li>
+          <PiPuzzlePieceBold />
+          <span>{found.pieces} pièces</span>
+        </li>
+        <li>
+          <BiArea />
+          <span>{found.surface} m²</span>
+        </li>
+        <li>
+          <MdOutlineEuro />
+          <span>
+            {found.transaction === "Achat"
+              ? `${found.price} €`
+              : `${found.price} € / mois`}
+          </span>
+        </li>
+      </ul>
+      <div>
+        <span>Description de l'offre:</span>
+        <p>{found.description}</p>
       </div>
-      <span>Description de l'offre:</span>
-      <p>{found.description}</p>
       <div className={classes["button-container"]}>
-        <Link className={classes.contact}>Nous contacter pour ce bien</Link>
+        <Link to="/contact" className={classes.contact}>
+          Nous contacter pour ce bien
+        </Link>
       </div>
     </div>
   );
