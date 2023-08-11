@@ -50,9 +50,14 @@ ul {
 p,
 span,
 button,
+li,
 a,
 input,
 textarea,
 select {
   font-family: "Montserrat_regular";
+}
+
+button {
+  cursor: pointer;
 }

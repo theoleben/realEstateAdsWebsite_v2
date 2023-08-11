@@ -77,3 +77,19 @@
   z-index: 20;
   background-color: rgba(0, 0, 0, 0.75);
 }
+
+.content p {
+  max-height: 20vh;
+  overflow: auto;
+}
+
+@media screen and (max-width: 575.98px) {
+  .modal {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .modal > div:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}

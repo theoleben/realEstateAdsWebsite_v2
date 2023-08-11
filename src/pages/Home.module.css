@@ -1,20 +1,8 @@
 .banner {
   margin-top: 25px;
   width: 100%;
-  height: 300px;
   object-fit: cover;
   object-position: 0 90%;
-}
-
-.item a {
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .agence {
@@ -23,11 +11,27 @@
   margin-top: 150px;
 }
 
+.agence > div:nth-child(1) {
+  width: 40%;
+}
+
+.agence p,
+.agence > div:nth-child(1) > div {
+  background-color: rgb(206, 230, 243, 0.4);
+}
+
+.title-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .agence h2,
 .excellence h2 {
   padding-top: 50px;
   margin-bottom: 50px;
   position: relative;
+  display: inline;
 }
 
 .agence h2::before,
@@ -37,22 +41,7 @@
   height: 1px;
   bottom: -15px;
   background-color: black;
-}
-
-.agence h2::before {
-  width: 210px;
-}
-
-.excellence h2::before {
-  width: 400px;
-}
-
-.agence > div:nth-child(1) {
-  width: 40%;
-}
-
-.agence > div:nth-child(1) > div {
-  background-color: rgb(206, 230, 243, 0.4);
+  width: 100%;
 }
 
 .agence p,
@@ -72,6 +61,17 @@
   object-fit: cover;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item a {
+  text-decoration: none;
+}
+
 .excellence {
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@
 
 .excellence img {
   height: 350px;
-  margin-top: -150px;
+  margin-top: -140px;
   margin-right: 150px;
   object-fit: cover;
 }
@@ -108,8 +108,8 @@ section:nth-child(4) h2:before {
   width: 50px;
   height: 1px;
   background-color: black;
-  top: 23px;
-  right: -70px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 section:nth-child(4) h2:before {
@@ -118,4 +118,117 @@ section:nth-child(4) h2:before {
 
 section:nth-child(4) h2:after {
   right: -70px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .img-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .agence img {
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+
+  .excellence {
+    margin-top: 80px;
+  }
+
+  .excellence img {
+    height: 300px;
+    margin-top: 0px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .img-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .agence > div:nth-child(1) {
+    width: 50%;
+  }
+
+  .agence img {
+    margin-left: 5%;
+    margin-top: 0px;
+  }
+
+  .excellence {
+    margin-top: 80px;
+  }
+
+  .excellence img {
+    height: 250px;
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+
+  .excellence > div:nth-child(2) {
+    width: 50%;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .agence {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+  .agence > div:nth-child(1) {
+    width: 100%;
+  }
+
+  .agence img {
+    display: none;
+  }
+
+  .excellence {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .excellence img {
+    height: 250px;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .excellence > div:nth-child(2) {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .banner {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .agence h2,
+  .excellence h2,
+  section:nth-child(4) h2 {
+    font-size: 26px;
+  }
+
+  .title-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .excellence {
+    margin-bottom: 75px;
+  }
+
+  .title-container2 {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
 }

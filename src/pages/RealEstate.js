@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import classes from "./RealEstate.module.css";
 import data from "../data/realEstate";
 import Card from "../components/Card";
-import { useLocation /*useParams*/ } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const INCORRECT_VALUE = "incorrect_value";
 const regions = [

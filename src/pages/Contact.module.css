@@ -20,6 +20,7 @@
   outline: none;
   margin-bottom: 20px;
   padding: 5px;
+  font-size: 16px;
 }
 
 .form > textarea {
@@ -30,6 +31,7 @@
   margin-bottom: 20px;
   padding: 5px;
   resize: vertical;
+  font-size: 16px;
 }
 
 .form input:focus,
@@ -41,13 +43,20 @@
   width: 150px;
   height: 40px;
   border: 2px solid lightgrey;
+  font-size: 16px;
 }
 
 .form > button:hover {
   border-color: #00337c;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991.98px) {
+  .form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
   .form {
     width: 90%;
   }

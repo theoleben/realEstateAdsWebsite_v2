@@ -26,13 +26,11 @@
 
 .card-home img {
   width: 100%;
-  height: 250px;
   object-fit: cover;
 }
 
 .card img {
   width: 100%;
-  height: 400px;
   object-fit: cover;
 }
 
@@ -68,12 +66,11 @@
   right: 15px;
   bottom: 15px;
   width: 30%;
-  height: 50px;
-  line-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 1px solid black;
   font-size: 20px;
   font-weight: 100;
-  cursor: pointer;
   z-index: 1;
   overflow: hidden;
   text-align: center;
@@ -110,5 +107,39 @@
   }
   100% {
     color: white;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .card-home img {
+    height: 250px;
+  }
+
+  .card img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .card-home {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .detail {
+    font-size: 16px;
+  }
+
+  .detail::before {
+    border-bottom: 70px solid #00337c;
+  }
+
+  .price {
+    font-size: 26px;
   }
 }

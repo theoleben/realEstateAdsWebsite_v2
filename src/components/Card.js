@@ -22,6 +22,8 @@ const Card = (props) => {
         </span>
         <Link
           to={`/real-estate/detail/${props.data.id}`}
+          target="_blank"
+          rel="noreferrer"
           className={classes.detail}
         >
           Voir le détail
