@@ -8,6 +8,7 @@ import Offices from "./pages/Offices";
 import Contact from "./pages/Contact";
 import RealEstateDetails from "./components/RealEstateDetails";
 import RealEstateLayout from "./pages/RealEstateLayout";
+import { RealEstateProvider } from "./store/real-estate-context";
 
 const router = createBrowserRouter([
   {
@@ -53,7 +54,11 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <RealEstateProvider>
+      <RouterProvider router={router} />;
+    </RealEstateProvider>
+  );
 }
 
 export default App;

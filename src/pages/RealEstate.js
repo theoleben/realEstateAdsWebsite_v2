@@ -1,10 +1,16 @@
-import React, { Fragment, useCallback, useEffect, useState } from "react";
+import React, {
+  Fragment,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 import { AiOutlineSearch } from "react-icons/ai";
 import classes from "./RealEstate.module.css";
-import data from "../data/realEstate";
 import Card from "../components/Card";
 import { useLocation } from "react-router-dom";
+import RealEstateContext from "../store/real-estate-context";
 
 const INCORRECT_VALUE = "incorrect_value";
 const regions = [
@@ -25,6 +31,10 @@ const regions = [
 
 const RealEstate = () => {
   // console.log("RealEstate");
+  const ctx = useContext(RealEstateContext);
+  const data = ctx.realEstate;
+  // console.log(data);
+
   const [transaction, setTransaction] = useState(INCORRECT_VALUE);
   const [region, setRegion] = useState(INCORRECT_VALUE);
   const [bedrooms, setBedrooms] = useState(INCORRECT_VALUE);
@@ -32,6 +42,11 @@ const RealEstate = () => {
   const [budget, setBudget] = useState(0);
   const [filteredRealEstate, setFilteredRealEstate] = useState(data);
   const [enable, setEnable] = useState(false);
+
+  useEffect(() => {
+    // console.log("data changed");
+    setFilteredRealEstate(data);
+  }, [data]);
 
   // console.log(data);
 
@@ -103,7 +118,7 @@ const RealEstate = () => {
     setFilteredRealEstate(result);
 
     // console.log(result.length);
-  }, [bedrooms, budget, region, surface, transaction]);
+  }, [bedrooms, budget, region, surface, transaction, data]);
 
   const location = useLocation();
 

@@ -1,15 +1,15 @@
-import img_valence from "../img/thumbnails/Valence.jpg";
-import img_dijon from "../img/thumbnails/Dijon.jpg";
-import img_rennes from "../img/thumbnails/Rennes.jpg";
-import img_orleans from "../img/thumbnails/Orléans.jpg";
-import img_nancy from "../img/thumbnails/Nancy.jpg";
-import img_amiens from "../img/thumbnails/Amiens.jpg";
-import img_paris from "../img/thumbnails/Paris.jpg";
-import img_deauville from "../img/thumbnails/Deauville.jpg";
-import img_biarritz from "../img/thumbnails/Biarritz.jpg";
-import img_toulouse from "../img/thumbnails/Toulouse.jpg";
-import img_nantes from "../img/thumbnails/Nantes.jpg";
-import img_aixenprovence from "../img/thumbnails/AixEnProvence.jpg";
+// import img_valence from "../img/thumbnails/Valence.jpg";
+// import img_dijon from "../img/thumbnails/Dijon.jpg";
+// import img_rennes from "../img/thumbnails/Rennes.jpg";
+// import img_orleans from "../img/thumbnails/Orléans.jpg";
+// import img_nancy from "../img/thumbnails/Nancy.jpg";
+// import img_amiens from "../img/thumbnails/Amiens.jpg";
+// import img_paris from "../img/thumbnails/Paris.jpg";
+// import img_deauville from "../img/thumbnails/Deauville.jpg";
+// import img_biarritz from "../img/thumbnails/Biarritz.jpg";
+// import img_toulouse from "../img/thumbnails/Toulouse.jpg";
+// import img_nantes from "../img/thumbnails/Nantes.jpg";
+// import img_aixenprovence from "../img/thumbnails/AixEnProvence.jpg";
 
 const license4 = {
   name: "CC BY-SA 4.0",
@@ -32,7 +32,7 @@ const DUMMY_OFFICES = [
     location: "Valence",
     region: "Auvergne-Rhône-Alpes",
     thumbnail: {
-      photo: img_valence,
+      photo: "Valence.jpg",
       author: "Chabe01",
       license: license4,
       description: "Cathédrale Saint-Apollinaire de Valence",
@@ -48,7 +48,7 @@ const DUMMY_OFFICES = [
     location: "Dijon",
     region: "Bourgogne-Franche-Comté",
     thumbnail: {
-      photo: img_dijon,
+      photo: "Dijon.jpg",
       author: "Benh LIEU SONG",
       license: license3,
       description: "Église Notre-Dame de Dijon",
@@ -64,7 +64,7 @@ const DUMMY_OFFICES = [
     location: "Rennes",
     region: "Bretagne",
     thumbnail: {
-      photo: img_rennes,
+      photo: "Rennes.jpg",
       author: "Erwan Corre",
       license: license4,
       description: "Statue de Leperdit sur la Place du Champ Jacquet à Rennes",
@@ -80,7 +80,7 @@ const DUMMY_OFFICES = [
     location: "Orléans",
     region: "Centre-Val de Loire",
     thumbnail: {
-      photo: img_orleans,
+      photo: "Orléans.jpg",
       author: "Wouter Hagens",
       license: license3,
       description: "Statue de Jeanne d'Arc sur la Place du Martroi à Orléans",
@@ -96,7 +96,7 @@ const DUMMY_OFFICES = [
     location: "Nancy",
     region: "Grand Est",
     thumbnail: {
-      photo: img_nancy,
+      photo: "Nancy.jpg",
       author: "Nicolas Cornet",
       license: license4,
       description: "Place Stanislas et ses grilles à Nancy",
@@ -112,7 +112,7 @@ const DUMMY_OFFICES = [
     location: "Amiens",
     region: "Hauts-de-France",
     thumbnail: {
-      photo: img_amiens,
+      photo: "Amiens.jpg",
       author: "Raimond Spekking",
       license: license4,
       description: "Cathédrale Notre-Dame d'Amiens",
@@ -128,7 +128,7 @@ const DUMMY_OFFICES = [
     location: "Paris 2ème",
     region: "Île-de-France",
     thumbnail: {
-      photo: img_paris,
+      photo: "Paris.jpg",
       author: "Alexander Hoernigk",
       license: license4,
       description: "Façade du palais Garnier à Paris",
@@ -144,7 +144,7 @@ const DUMMY_OFFICES = [
     location: "Deauville",
     region: "Normandie",
     thumbnail: {
-      photo: img_deauville,
+      photo: "Deauville.jpg",
       author: "Arnaud 25",
       license: license3,
       description: "Casino de Deauville",
@@ -160,7 +160,7 @@ const DUMMY_OFFICES = [
     location: "Biarritz",
     region: "Nouvelle-Aquitaine",
     thumbnail: {
-      photo: img_biarritz,
+      photo: "Biarritz.jpg",
       author: "Rundvald",
       license: license4,
       description:
@@ -177,7 +177,7 @@ const DUMMY_OFFICES = [
     location: "Toulouse",
     region: "Occitanie",
     thumbnail: {
-      photo: img_toulouse,
+      photo: "Toulouse.jpg",
       author: "Didier Descouens",
       license: license4,
       description: "Musée des augustins à Toulouse",
@@ -193,7 +193,7 @@ const DUMMY_OFFICES = [
     location: "Nantes",
     region: "Pays de la Loire",
     thumbnail: {
-      photo: img_nantes,
+      photo: "Nantes.jpg",
       author: "Jibi44",
       license: license3,
       description: "Vue aérienne du château des ducs de Bretagne à Nantes",
@@ -209,7 +209,7 @@ const DUMMY_OFFICES = [
     location: "Aix-en-Provence",
     region: "Provence-Alpes-Côte d'Azur",
     thumbnail: {
-      photo: img_aixenprovence,
+      photo: "AixEnProvence.jpg",
       author: "Bjs",
       license: license4,
       description: "Cathédrale Saint-Sauveur d'Aix-en-Provence",

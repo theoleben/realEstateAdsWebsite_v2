@@ -1,9 +1,13 @@
-import React from "react";
-import officesData from "../data/offices";
+import React, { useContext } from "react";
 import classes from "./Offices.module.css";
 import Office from "../components/Office";
+import RealEstateContext from "../store/real-estate-context";
 
 const Offices = () => {
+  // console.log("Offices");
+  const ctx = useContext(RealEstateContext);
+  // console.log(ctx);
+  const officesData = ctx.offices;
   // console.log(officesData);
 
   return (

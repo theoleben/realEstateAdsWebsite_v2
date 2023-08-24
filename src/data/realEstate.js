@@ -1,13 +1,13 @@
-import ARA_prop1 from "../img/properties/ARA_prop1.jpg";
-import ARA_prop2 from "../img/properties/ARA_prop2.jpg";
-import ARA_prop3 from "../img/properties/ARA_prop3.jpg";
-import BRE_prop1 from "../img/properties/BRE_prop1.jpg";
-import HDF_prop1 from "../img/properties/HDF_prop1.jpg";
-import HDF_prop2 from "../img/properties/HDF_prop2.jpg";
-import HDF_prop3 from "../img/properties/HDF_prop3.jpg";
-import IDF_prop1 from "../img/properties/IDF_prop1.jpg";
-import IDF_prop2 from "../img/properties/IDF_prop2.jpg";
-import NOR_prop1 from "../img/properties/NOR_prop1.jpg";
+// import ARA_prop1 from "../img/properties/ARA_prop1.jpg";
+// import ARA_prop2 from "../img/properties/ARA_prop2.jpg";
+// import ARA_prop3 from "../img/properties/ARA_prop3.jpg";
+// import BRE_prop1 from "../img/properties/BRE_prop1.jpg";
+// import HDF_prop1 from "../img/properties/HDF_prop1.jpg";
+// import HDF_prop2 from "../img/properties/HDF_prop2.jpg";
+// import HDF_prop3 from "../img/properties/HDF_prop3.jpg";
+// import IDF_prop1 from "../img/properties/IDF_prop1.jpg";
+// import IDF_prop2 from "../img/properties/IDF_prop2.jpg";
+// import NOR_prop1 from "../img/properties/NOR_prop1.jpg";
 
 const DUMMY_REALESTATE = [
   {
@@ -22,7 +22,7 @@ const DUMMY_REALESTATE = [
     surface: "500",
     description: "Description test",
     photo: {
-      p1: ARA_prop1,
+      p1: "ARA_prop1.jpg",
     },
   },
   {
@@ -38,7 +38,7 @@ const DUMMY_REALESTATE = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus ipsum, gravida in vehicula vitae, ultrices quis mi. Fusce congue convallis tellus at vestibulum. Vestibulum suscipit facilisis orci ac condimentum. Duis a gravida libero. Ut ullamcorper ac erat id luctus. Aliquam sapien dui, elementum quis orci a, euismod fermentum est. Vestibulum viverra metus ut sapien lacinia, quis ullamcorper nisi luctus. Maecenas placerat dolor pretium rutrum commodo. Duis condimentum erat eu consequat suscipit. Nulla facilisi. Integer facilisis elit scelerisque, bibendum metus ornare, semper est. In tincidunt risus quis urna commodo vehicula. Quisque non sollicitudin dolor. Maecenas molestie quam vel metus feugiat, sed tincidunt eros condimentum. Cras fringilla, sem nec facilisis vehicula, metus ligula feugiat mi, non sagittis justo risus in ligula. Morbi ipsum odio, hendrerit in libero non, rhoncus suscipit risus.",
     photo: {
-      p1: ARA_prop2,
+      p1: "ARA_prop2.jpg",
     },
   },
   {
@@ -53,7 +53,7 @@ const DUMMY_REALESTATE = [
     surface: "150",
     description: "Description test",
     photo: {
-      p1: ARA_prop3,
+      p1: "ARA_prop3.jpg",
     },
   },
   {
@@ -68,7 +68,7 @@ const DUMMY_REALESTATE = [
     surface: "450",
     description: "Description test",
     photo: {
-      p1: BRE_prop1,
+      p1: "BRE_prop1.jpg",
     },
   },
   {
@@ -83,7 +83,7 @@ const DUMMY_REALESTATE = [
     surface: "200",
     description: "Description test",
     photo: {
-      p1: HDF_prop1,
+      p1: "HDF_prop1.jpg",
     },
   },
   {
@@ -98,7 +98,7 @@ const DUMMY_REALESTATE = [
     surface: "90",
     description: "Description test",
     photo: {
-      p1: HDF_prop2,
+      p1: "HDF_prop2.jpg",
     },
   },
   {
@@ -113,7 +113,7 @@ const DUMMY_REALESTATE = [
     surface: "150",
     description: "Description test",
     photo: {
-      p1: HDF_prop3,
+      p1: "HDF_prop3.jpg",
     },
   },
   {
@@ -128,7 +128,7 @@ const DUMMY_REALESTATE = [
     surface: "130",
     description: "Description test",
     photo: {
-      p1: IDF_prop1,
+      p1: "IDF_prop1.jpg",
     },
   },
   {
@@ -143,7 +143,7 @@ const DUMMY_REALESTATE = [
     surface: "150",
     description: "Description test",
     photo: {
-      p1: IDF_prop2,
+      p1: "IDF_prop2.jpg",
     },
   },
   {
@@ -158,7 +158,7 @@ const DUMMY_REALESTATE = [
     surface: "500",
     description: "Description test",
     photo: {
-      p1: NOR_prop1,
+      p1: "NOR_prop1.jpg",
     },
   },
 ];
