@@ -28,3 +28,6 @@ yarn-error.log*
 .firebaserc
 firebase.json
 deploy.txt
+
+/RealFavIconGenerator/*
+!/RealFavIconGenerator/favicon_package_v0.16.zip
