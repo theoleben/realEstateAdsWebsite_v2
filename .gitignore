@@ -23,3 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 /src/firebase/*
 !/src/firebase/constants.js
+
+/.firebase
+.firebaserc
+firebase.json
+deploy.txt
