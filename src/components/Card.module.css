@@ -131,15 +131,21 @@
     width: 100%;
   }
 
+  .details p {
+    font-size: 22px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
   .detail {
     font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 
   .detail::before {
     border-bottom: 70px solid #00337c;
-  }
-
-  .price {
-    font-size: 26px;
   }
 }

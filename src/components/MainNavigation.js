@@ -1,14 +1,16 @@
 import React, { Fragment } from "react";
 import classes from "./MainNavigation.module.css";
 import LogoBanner from "./LogoBanner";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { MdOutlineRealEstateAgent } from "react-icons/md";
 
 const MainNavigation = () => {
   // console.log("MainNavigation");
   return (
     <Fragment>
-      <MdOutlineRealEstateAgent className={classes.logo} />
+      <Link to="" className={classes.link}>
+        <MdOutlineRealEstateAgent className={classes.logo} />
+      </Link>
       <LogoBanner />
       <header className={classes.header}>
         <div className={classes.brand}>
