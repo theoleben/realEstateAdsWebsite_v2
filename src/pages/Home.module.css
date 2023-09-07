@@ -231,4 +231,28 @@ section:nth-child(4) h2:after {
     padding-left: 75px;
     padding-right: 75px;
   }
+
+  .item {
+    width: 100%;
+  }
+}
+
+/* Custom breakpoint */
+@media screen and (max-width: 399.98px) {
+  section:nth-child(4) h2 {
+    font-size: 20px;
+  }
+
+  section:nth-child(4) h2:after,
+  section:nth-child(4) h2:before {
+    width: 30px;
+  }
+
+  section:nth-child(4) h2:before {
+    left: -50px;
+  }
+
+  section:nth-child(4) h2:after {
+    right: -50px;
+  }
 }

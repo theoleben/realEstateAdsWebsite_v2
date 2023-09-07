@@ -1,12 +1,14 @@
 .modal {
   position: fixed;
-  top: 20vh;
   width: 50%;
   background-color: white;
   border: 1px solid black;
   margin-left: 25%;
+  max-height: 90vh;
   z-index: 30;
   padding: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .modal > div:nth-child(1) {
@@ -91,5 +93,23 @@
 
   .modal > div:nth-child(1) {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 991.98px) and (orientation: landscape) {
+  .modal {
+    overflow: auto;
+  }
+}
+
+/* Custom breakpoint */
+@media screen and (max-width: 399.98px) {
+  .modal div:nth-last-child(1) {
+    width: 70%;
+  }
+
+  .modal button {
+    width: 100%;
+    left: 0;
   }
 }
