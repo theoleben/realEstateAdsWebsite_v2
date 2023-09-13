@@ -2,7 +2,10 @@ console.log("real-estate-script");
 import { appendFile } from "fs";
 import data from "../data/realEstate.js";
 import offices from "../data/offices.js";
-import { OFFICES_DIRECTORY, REAL_ESTATE_DIRECTORY } from "../firebase/constants.js";
+import {
+  OFFICES_DIRECTORY,
+  REAL_ESTATE_DIRECTORY,
+} from "../firebase/constants.js";
 
 // console.log(JSON.stringify(data));
 // console.log(data);
@@ -20,7 +23,7 @@ for (const element of data) {
   const unique_id = Math.floor(Math.random() * (0xffff + 1)).toString();
   const id = "id_" + unique_id;
   const pathImg = REAL_ESTATE_DIRECTORY + element.photo.p1;
-  const temp = { ...element, photo: { p1: pathImg } };
+  const temp = { ...element, photo: { ...element.photo, p1: pathImg } };
   delete temp.id;
 
   obj["real-estate"][id] = { ...temp };

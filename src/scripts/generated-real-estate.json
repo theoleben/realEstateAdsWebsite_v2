@@ -1,128 +1,593 @@
 {
   "real-estate": {
-    "id_13290": {
+    "id_43339": {
       "transaction": "Achat",
       "title": "Chalet d'exception",
-      "price": "6 575 000",
+      "price": "7 575 000",
       "location": "Megève",
       "region": "Auvergne-Rhône-Alpes",
       "pieces": "8",
       "bedrooms": "6",
       "surface": "500",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/ARA_prop1.jpg" }
+      "description": "Ce chalet de luxe à Megève est un joyau alpin alliant charme traditionnel et élégance contemporaine. Avec ses 8 pièces, il offre un intérieur somptueux comprenant un salon spacieux avec cheminée, une salle à manger formelle, une cuisine haut de gamme et 6 chambres luxueuses avec salles de bains privées. Le terrain paysager comprend une terrasse ensoleillée, un jacuzzi extérieur et des vues panoramiques sur les montagnes. Des installations bien-être, un garage et un local à skis complètent cette oasis de montagne. Idéalement situé pour profiter des activités en toutes saisons, ce chalet offre une expérience de vie exceptionnelle dans les Alpes françaises.",
+      "photo": {
+        "p1": "images/real-estate-properties/ARA_prop1.jpg",
+        "description": "Chalet d'exception à Megève"
+      }
     },
-    "id_46635": {
+    "id_47054": {
       "transaction": "Location",
       "title": "Duplex lumineux en centre ville",
-      "price": "4 500",
+      "price": "8 500",
       "location": "Annecy",
       "region": "Auvergne-Rhône-Alpes",
       "pieces": "4",
       "bedrooms": "3",
       "surface": "150",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus ipsum, gravida in vehicula vitae, ultrices quis mi. Fusce congue convallis tellus at vestibulum. Vestibulum suscipit facilisis orci ac condimentum. Duis a gravida libero. Ut ullamcorper ac erat id luctus. Aliquam sapien dui, elementum quis orci a, euismod fermentum est. Vestibulum viverra metus ut sapien lacinia, quis ullamcorper nisi luctus. Maecenas placerat dolor pretium rutrum commodo. Duis condimentum erat eu consequat suscipit. Nulla facilisi. Integer facilisis elit scelerisque, bibendum metus ornare, semper est. In tincidunt risus quis urna commodo vehicula. Quisque non sollicitudin dolor. Maecenas molestie quam vel metus feugiat, sed tincidunt eros condimentum. Cras fringilla, sem nec facilisis vehicula, metus ligula feugiat mi, non sagittis justo risus in ligula. Morbi ipsum odio, hendrerit in libero non, rhoncus suscipit risus.",
-      "photo": { "p1": "images/real-estate-properties/ARA_prop2.jpg" }
+      "description": "Cet appartement de luxe en plein cœur d'Annecy offre une élégance discrète et un emplacement privilégié. Doté d'un design intérieur raffiné, il comprend des espaces de vie spacieux, des finitions haut de gamme et de grandes fenêtres qui inondent chaque pièce de lumière naturelle. L'emplacement central permet un accès facile aux boutiques, aux restaurants et aux charmes de la vieille ville, tout en offrant un sanctuaire de confort et de tranquillité au cœur de cette ville pittoresque.",
+      "photo": {
+        "p1": "images/real-estate-properties/ARA_prop2.jpg",
+        "description": "Duplex lumineux en centre ville à Annecy"
+      }
     },
-    "id_39293": {
+    "id_25631": {
       "transaction": "Achat",
       "title": "Villa exposée sud est",
-      "price": "700 000",
+      "price": "2 500 000",
       "location": "Annecy",
       "region": "Auvergne-Rhône-Alpes",
       "pieces": "5",
       "bedrooms": "3",
       "surface": "150",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/ARA_prop3.jpg" }
+      "description": "Cette villa de luxe, exposée plein sud-est à Annecy, est un bijou d'architecture contemporaine. Nichée dans un cadre enchanteur, elle offre une vue imprenable sur les montagnes environnantes. L'intérieur allie élégance et modernité avec des espaces lumineux, des matériaux de haute qualité et une attention aux détails exceptionnelle. Les vastes terrasses et la piscine extérieure créent un environnement parfait pour se détendre tout en profitant du climat ensoleillé. Cette propriété incarne le summum du luxe alpin, offrant un cadre de vie exceptionnel à Annecy.",
+      "photo": {
+        "p1": "images/real-estate-properties/ARA_prop3.jpg",
+        "description": "Villa exposée sud est à Annecy"
+      }
     },
-    "id_34395": {
-      "transaction": "Achat",
-      "title": "Maison de bord de mer",
-      "price": "5 000 000",
-      "location": "Baden",
-      "region": "Bretagne",
-      "pieces": "16",
-      "bedrooms": "10",
-      "surface": "450",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/BRE_prop1.jpg" }
-    },
-    "id_1105": {
+    "id_49934": {
       "transaction": "Location",
-      "title": "Maison 1 étage",
+      "title": "Maison de campagne de prestige",
+      "price": "5 000",
+      "location": "Dole",
+      "region": "Bourgogne-Franche-Comté",
+      "pieces": "5",
+      "bedrooms": "4",
+      "surface": "200",
+      "description": "Cette magnifique maison de campagne de prestige est nichée dans un environnement paisible à proximité de Dole, en Franche-Comté. La propriété offre 4 chambres luxueuses, un salon avec cheminée, une salle à manger formelle, une cuisine haut de gamme et un vaste terrain paysager avec une piscine privée, un court de tennis et un étang privé. La maison allie le charme de la campagne à des équipements modernes pour une expérience de vie exceptionnelle.",
+      "photo": {
+        "p1": "images/real-estate-properties/BFC_prop1.jpg",
+        "description": "Maison de campagne de prestige à Dole"
+      }
+    },
+    "id_17441": {
+      "transaction": "Achat",
+      "title": "Maison de vigneron rénovée",
+      "price": "2 000 000",
+      "location": "Beaune",
+      "region": "Bourgogne-Franche-Comté",
+      "pieces": "6",
+      "bedrooms": "4",
+      "surface": "200",
+      "description": "Cette charmante maison de vigneron a été entièrement rénovée avec des matériaux de qualité et un design intérieur de premier plan. Elle est située au cœur de Beaune, la capitale des vins de Bourgogne. La propriété comprend 4 chambres spacieuses, un salon avec cheminée, une cuisine moderne, une cave à vin climatisée et une cour intérieure avec piscine chauffée. Cette maison allie élégance et confort pour les amateurs de vin et de style de vie luxueux.",
+      "photo": {
+        "p1": "images/real-estate-properties/BFC_prop2.jpg",
+        "description": "Maison de vigneron rénovée à Beaune"
+      }
+    },
+    "id_20499": {
+      "transaction": "Location",
+      "title": "Villa contemporaine",
+      "price": "7 000",
+      "location": "Cluny",
+      "region": "Bourgogne-Franche-Comté",
+      "pieces": "5",
+      "bedrooms": "3",
+      "surface": "185",
+      "description": "Cette villa contemporaine spectaculaire est située à proximité de Cluny, au cœur de la Bourgogne. Conçue par un architecte renommé, elle offre un design moderne et des finitions de haute qualité. La villa comprend 3 grandes chambres, un salon ouvert avec de grandes baies vitrées offrant une vue panoramique, une cuisine design entièrement équipée et une piscine intérieure chauffée. Le vaste terrain paysager offre intimité et sérénité.",
+      "photo": {
+        "p1": "images/real-estate-properties/BFC_prop3.jpg",
+        "description": "Villa contemporaine à Cluny"
+      }
+    },
+    "id_19297": {
+      "transaction": "Achat",
+      "title": "Manoir breton",
+      "price": "4 500 000",
+      "location": "Saint Malo",
+      "region": "Bretagne",
+      "pieces": "10",
+      "bedrooms": "6",
+      "surface": "550",
+      "description": "Ce magnifique manoir breton du 18ème siècle est situé à proximité de Saint-Malo, offrant un mélange de charme historique et de confort moderne. La propriété comprend 6 chambres spacieuses, des salles de réception élégantes, une cuisine de chef, une bibliothèque et un vaste terrain paysager avec des jardins à la française. Le manoir est idéalement situé pour profiter de la côte bretonne.",
+      "photo": {
+        "p1": "images/real-estate-properties/BRE_prop1.jpg",
+        "description": "Manoir breton à Saint Malo"
+      }
+    },
+    "id_57463": {
+      "transaction": "Location",
+      "title": "Maison contemporaine",
+      "price": "5 000",
+      "location": "Dinard",
+      "region": "Bretagne",
+      "pieces": "5",
+      "bedrooms": "3",
+      "surface": "250",
+      "description": "Cette maison contemporaine est située dans la ville balnéaire de Dinard, offrant un design moderne et des finitions de haute qualité. La maison comprend 3 chambres spacieuses, un salon ouvert avec de grandes baies vitrées, une cuisine design entièrement équipée et un jardin paysager avec piscine privée. Profitez d'un style de vie luxueux à proximité des plages de sable fin et des commodités de la ville.",
+      "photo": {
+        "p1": "images/real-estate-properties/BRE_prop2.jpg",
+        "description": "Maison contemporaine à Dinard"
+      }
+    },
+    "id_5810": {
+      "transaction": "Achat",
+      "title": "Maison en centre ville",
+      "price": "1 400 000",
+      "location": "Rennes",
+      "region": "Bretagne",
+      "pieces": "7",
+      "bedrooms": "3",
+      "surface": "150",
+      "description": "Cette élégante maison est située au cœur de Rennes, la capitale de la Bretagne. La propriété a été restaurée avec soin pour préserver son charme d'antan tout en offrant des équipements modernes. Elle comprend 3 chambres, un grand salon, une salle à manger formelle, une cuisine rénovée et un jardin privé. Cette maison allie l'histoire à un confort contemporain.",
+      "photo": {
+        "p1": "images/real-estate-properties/BRE_prop3.jpg",
+        "description": "Maison en centre ville à Rennes"
+      }
+    },
+    "id_22222": {
+      "transaction": "Location",
+      "title": "Moulin du 17ème siècle rénové",
+      "price": "3 000",
+      "location": "Chemillé-sur-Dême",
+      "region": "Centre-Val de Loire",
+      "pieces": "6",
+      "bedrooms": "2",
+      "surface": "200",
+      "description": "Ce moulin du 17ème siècle rénové est niché au cœur de la campagne, offrant charme historique et modernité. Les intérieurs préservent l'authenticité avec poutres en bois et cheminées en pierre, tandis que la cuisine est une ode à la gastronomie. Plusieurs chambres spacieuses offrent des vues sur la rivière, et un grenier aménageable, une cave à vin et un garage sont inclus. Cette propriété unique associe histoire, élégance et tranquillité.",
+      "photo": {
+        "p1": "images/real-estate-properties/CVDL_prop1.jpg",
+        "description": "Moulin du 17ème siècle rénové à Chemillé-sur-Dême"
+      }
+    },
+    "id_55184": {
+      "transaction": "Achat",
+      "title": "Demeure du 18ème siècle",
+      "price": "1 800 000",
+      "location": "Tours",
+      "region": "Centre-Val de Loire",
+      "pieces": "14",
+      "bedrooms": "6",
+      "surface": "600",
+      "description": "Cette demeure du 18ème siècle est située à Tours, la plus grande ville de la région Centre-Val de Loire. La propriété offre 6 chambres spacieuses, un salon avec cheminée, une salle à manger formelle, une cuisine rénovée et un jardin privé avec une piscine. Cette maison allie charme historique et confort contemporain.",
+      "photo": {
+        "p1": "images/real-estate-properties/CVDL_prop2.jpg",
+        "description": "Demeure du 18ème siècle à Tours"
+      }
+    },
+    "id_41709": {
+      "transaction": "Location",
+      "title": "Appartement en centre ville",
+      "price": "2 200",
+      "location": "Orléans",
+      "region": "Centre-Val de Loire",
+      "pieces": "5",
+      "bedrooms": "2",
+      "surface": "107",
+      "description": "Cet appartement de prestige est situé dans un immeuble historique en plein cœur d'Orléans. Il offre une superficie généreuse avec 2 chambres, un salon lumineux, une cuisine moderne, et une terrasse privée offrant des vues imprenables sur la ville. Les finitions haut de gamme et l'emplacement privilégié font de cet appartement un choix de vie exclusif.",
+      "photo": {
+        "p1": "images/real-estate-properties/CVDL_prop3.jpg",
+        "description": "Appartement en centre ville à Orléans"
+      }
+    },
+    "id_14184": {
+      "transaction": "Achat",
+      "title": "Villa en bord de mer",
+      "price": "4 000 000",
+      "location": "Porto-Vecchio",
+      "region": "Corse",
+      "pieces": "6",
+      "bedrooms": "4",
+      "surface": "300",
+      "description": "Cette villa de luxe en bord de mer à Porto-Vecchio offre une vue imprenable sur la Méditerranée. La propriété comprend 4 chambres, un grand salon ouvert avec baies vitrées, une cuisine haut de gamme, une piscine à débordement, un accès direct à une plage privée et des terrasses offrant un cadre idyllique pour profiter du climat corse.",
+      "photo": {
+        "p1": "images/real-estate-properties/CORS_prop1.jpg",
+        "description": "Villa en bord de mer à Porto-Vecchio"
+      }
+    },
+    "id_54349": {
+      "transaction": "Location",
+      "title": "Villa avec vue sur le maquis Corse",
+      "price": "16 000",
+      "location": "Bonifacio",
+      "region": "Corse",
+      "pieces": "8",
+      "bedrooms": "6",
+      "surface": "250",
+      "description": "Cette villa exceptionnelle près de Bonifacio, en Corse, offre un cadre de vie luxueux en plein cœur de la nature. Avec ses 8 pièces élégamment aménagées, elle combine le confort moderne avec le charme authentique de la Corse. Les grandes baies vitrées offrent une vue imprenable sur le maquis corse environnant, créant un lien harmonieux entre l'intérieur et l'extérieur. Cette propriété est un refuge parfait pour ceux qui recherchent l'intimité, le calme et la beauté naturelle de la Corse.",
+      "photo": {
+        "p1": "images/real-estate-properties/CORS_prop2.jpg",
+        "description": "Villa avec vue sur le maquis Corse à Bonifacio"
+      }
+    },
+    "id_51349": {
+      "transaction": "Achat",
+      "title": "Villa contemporaine",
+      "price": "5 000 000",
+      "location": "Ajaccio",
+      "region": "Corse",
+      "pieces": "10",
+      "bedrooms": "6",
+      "surface": "400",
+      "description": "Cette villa contemporaine à Ajaccio est un exemple d'architecture moderne et luxueuse. La propriété comprend 6 chambres, un salon élégant avec de grandes baies vitrées, une cuisine design, une piscine à débordement, et des terrasses offrant des vues spectaculaires sur la mer et les montagnes. Elle offre un style de vie sophistiqué en Corse.",
+      "photo": {
+        "p1": "images/real-estate-properties/CORS_prop3.jpg",
+        "description": "Villa contemporaine à Ajaccio"
+      }
+    },
+    "id_55686": {
+      "transaction": "Location",
+      "title": "Chalet de montagne",
+      "price": "5 000",
+      "location": "Vosges",
+      "region": "Grand Est",
+      "pieces": "5",
+      "bedrooms": "2",
+      "surface": "150",
+      "description": "Ce chalet de montagne en bois est niché au cœur des Vosges, offrant une retraite de luxe dans un cadre naturel préservé. Avec des caractéristiques alpines authentiques, dont une cheminée en pierre, une cuisine moderne et des chambres confortables, cette propriété est parfaite pour les amoureux de la nature.",
+      "photo": {
+        "p1": "images/real-estate-properties/GDES_prop1.jpg",
+        "description": "Chalet de montagne dans les Vosges"
+      }
+    },
+    "id_49206": {
+      "transaction": "Achat",
+      "title": "Château du 18ème siècle",
+      "price": "10 000 000",
+      "location": "Strasbourg",
+      "region": "Grand Est",
+      "pieces": "10",
+      "bedrooms": "6",
+      "surface": "500",
+      "description": "Ce majestueux château du 18ème siècle est situé à proximité de Strasbourg, en Alsace. La propriété offre plus de 500 m² de surface habitable, comprenant de 6 chambres, 1 salle de réception somptueuses, une cuisine de chef, une cave à vin, un parc paysager et même un vignoble. Le château est un exemple exceptionnel d'architecture historique et offre une vie luxueuse dans un cadre prestigieux.",
+      "photo": {
+        "p1": "images/real-estate-properties/GDES_prop2.jpg",
+        "description": "Château du 18ème siècle à Strasbourg"
+      }
+    },
+    "id_15294": {
+      "transaction": "Location",
+      "title": "Appartement de prestige",
       "price": "3 500",
+      "location": "Nancy",
+      "region": "Grand Est",
+      "pieces": "9",
+      "bedrooms": "5",
+      "surface": "290",
+      "description": "Cet appartement de 9 pièces est une perle rare au cœur de Nancy, alliant élégance classique et modernité. Ses vastes espaces de vie comprennent un grand salon lumineux, une salle à manger formelle et une cuisine contemporaine équipée d'appareils haut de gamme. Les 5 chambres spacieuses offrent un confort luxueux, tandis que les grandes fenêtres inondent chaque pièce de lumière naturelle. Cette propriété est un exemple parfait d'un mode de vie urbain sophistiqué dans un emplacement privilégié au cœur de Nancy.",
+      "photo": {
+        "p1": "images/real-estate-properties/GDES_prop3.jpg",
+        "description": "Appartement de prestige à Nancy"
+      }
+    },
+    "id_20882": {
+      "transaction": "Achat",
+      "title": "Maison 1 étage",
+      "price": "2 700 000",
       "location": "Le Touquet-Paris-Plage",
       "region": "Hauts-de-France",
       "pieces": "6",
       "bedrooms": "4",
       "surface": "200",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/HDF_prop1.jpg" }
+      "description": "Cette charmante maison de 6 pièces au Touquet offre une élégance côtière au cœur de la station balnéaire. Avec un intérieur lumineux et spacieux comprenant un salon confortable, une salle à manger, et une cuisine moderne, cette propriété respire la convivialité. Les 4 chambres offrent un hébergement confortable, tandis qu'un jardin bien entretenu et une terrasse ensoleillée créent un cadre idéal pour profiter du climat côtier. Cette maison est l'escapade parfaite pour profiter de la vie en bord de mer dans les Hauts-de-France.",
+      "photo": {
+        "p1": "images/real-estate-properties/HDF_prop1.jpg",
+        "description": "Maison 1 étage au Touquet"
+      }
     },
-    "id_50853": {
-      "transaction": "Achat",
+    "id_33762": {
+      "transaction": "Location",
       "title": "Maison 1 étage",
-      "price": "500 000",
+      "price": "1 600",
       "location": "Chantilly",
       "region": "Hauts-de-France",
-      "pieces": "3",
+      "pieces": "4",
       "bedrooms": "2",
       "surface": "90",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/HDF_prop2.jpg" }
+      "description": "Située à Chantilly, cette élégante maison de 4 pièces propose un cadre de vie paisible au cœur d'un environnement historique. À l'intérieur, vous trouverez un spacieux salon, une salle à manger baignée de lumière naturelle et une cuisine moderne, le tout conçu pour votre confort. Les 3 chambres offrent un espace de repos idéal, et un jardin privé ou une cour extérieure créent un espace extérieur agréable pour la détente. Cette propriété de location constitue une opportunité idéale pour profiter du charme de Chantilly dans la région des Hauts-de-France.",
+      "photo": {
+        "p1": "images/real-estate-properties/HDF_prop2.jpg",
+        "description": "Maison 1 étage à Chantilly"
+      }
     },
-    "id_56179": {
-      "transaction": "Location",
-      "title": "Maison de charme",
-      "price": "2 000",
-      "location": "Chantilly",
+    "id_31066": {
+      "transaction": "Achat",
+      "title": "Ferme de luxe dans la campagne picarde",
+      "price": "2 000 000",
+      "location": "Amiens",
       "region": "Hauts-de-France",
       "pieces": "6",
       "bedrooms": "4",
-      "surface": "150",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/HDF_prop3.jpg" }
+      "surface": "190",
+      "description": "Cette ferme de luxe dans la campagne picarde offre une expérience de vie champêtre élégante. La propriété comprend une maison principale en pierre, une grange rénovée, des terres agricoles, un étang privé et des jardins bien entretenus. La maison offre 4 chambres, un salon spacieux avec poutres apparentes, une cuisine de campagne et une cave à vin. Cette résidence offre un style de vie luxueux dans un environnement naturel préservé.",
+      "photo": {
+        "p1": "images/real-estate-properties/HDF_prop3.jpg",
+        "description": "Ferme de luxe dans la campagne picarde près d'Amiens"
+      }
     },
-    "id_32943": {
+    "id_23438": {
+      "transaction": "Location",
+      "title": "Appartement avec vue sur la tour Eiffel",
+      "price": "15 000",
+      "location": "Paris 16ème",
+      "region": "Île-de-France",
+      "pieces": "5",
+      "bedrooms": "3",
+      "surface": "120",
+      "description": "Cet appartement de prestige est situé dans le 16e arrondissement de Paris, offrant une vue imprenable sur la Tour Eiffel. Il comprend 3 chambres, un vaste salon avec de grandes fenêtres, une cuisine haut de gamme et une terrasse privée.",
+      "photo": {
+        "p1": "images/real-estate-properties/IDF_prop1.jpg",
+        "description": "Appartement avec vue sur la tour Eiffel dans Paris 16ème"
+      }
+    },
+    "id_14368": {
       "transaction": "Achat",
       "title": "Appartement haussmannien",
-      "price": "1 500 000",
-      "location": "Paris 7ème",
+      "price": "2 600 000",
+      "location": "Paris 8ème",
       "region": "Île-de-France",
       "pieces": "5",
       "bedrooms": "3",
       "surface": "130",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/IDF_prop1.jpg" }
+      "description": "Cet appartement de prestige est situé dans le 8e arrondissement de Paris, à proximité des Champs-Élysées. Il offre 3 chambres, un grand salon avec vue sur la Tour Eiffel, une cuisine haut de gamme et un service de conciergerie.",
+      "photo": {
+        "p1": "images/real-estate-properties/IDF_prop2.jpg",
+        "description": "Appartement haussmannien dans Paris 8ème"
+      }
     },
-    "id_29619": {
+    "id_2001": {
       "transaction": "Location",
-      "title": "Appartement avec vue sur la Tour Eiffel",
+      "title": "Maison 1 étage",
       "price": "8 000",
-      "location": "Paris 16ème",
+      "location": "Versailles",
       "region": "Île-de-France",
-      "pieces": "3",
-      "bedrooms": "1",
-      "surface": "150",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/IDF_prop2.jpg" }
+      "pieces": "5",
+      "bedrooms": "3",
+      "surface": "115",
+      "description": "Cette maison de luxe à Versailles, située dans un quartier prestigieux, offre une élégance exceptionnelle et un confort absolu. Elle dispose d'espaces intérieurs spacieux et lumineux, comprenant un salon, une salle à manger, une cuisine moderne et trois chambres avec salles de bains attenantes. Les finitions haut de gamme et les détails architecturaux soignés ajoutent à son charme. Idéalement située à proximité des attractions, des écoles et des commerces, cette propriété incarne l'élégance et le raffinement à Versailles.",
+      "photo": {
+        "p1": "images/real-estate-properties/IDF_prop3.jpg",
+        "description": "Maison 1 étage à Versailles"
+      }
     },
-    "id_45794": {
+    "id_50483": {
+      "transaction": "Achat",
+      "title": "Manoir normand",
+      "price": "5 000 000",
+      "location": "Deauville",
+      "region": "Normandie",
+      "pieces": "8",
+      "bedrooms": "5",
+      "surface": "225",
+      "description": "Ce manoir normand près de Deauville est une résidence de caractère exceptionnelle. La propriété comprend 5 chambres, une salle de réception élégante, un parc paysager, une piscine extérieure, une écurie et un court de tennis. Le manoir incarne le charme de la Normandie.",
+      "photo": {
+        "p1": "images/real-estate-properties/NOR_prop1.jpg",
+        "description": "Manoir normand à Deauville"
+      }
+    },
+    "id_842": {
       "transaction": "Location",
-      "title": "Splendide Château de Normandie",
-      "price": "5 000",
+      "title": "Cottage de campagne",
+      "price": "2 000",
+      "location": "Honfleur",
+      "region": "Normandie",
+      "pieces": "5",
+      "bedrooms": "3",
+      "surface": "70",
+      "description": "Ce cottage de campagne en Normandie est un véritable bijou rustique. Avec ses 3 chambres douillettes, une cuisine rustique et un salon orné d'une cheminée en pierre, il offre une ambiance chaleureuse et authentique. Son grand jardin verdoyant et sa terrasse ombragée sont parfaits pour des moments de détente en pleine nature normande. Une petite rivière à proximité ajoute au charme bucolique.",
+      "photo": {
+        "p1": "images/real-estate-properties/NOR_prop2.jpg",
+        "description": "Cottage de campagne à Honfleur"
+      }
+    },
+    "id_61303": {
+      "transaction": "Achat",
+      "title": "Splendide château de Normandie",
+      "price": "8 000 000",
       "location": "Bayeux",
       "region": "Normandie",
       "pieces": "12",
       "bedrooms": "8",
       "surface": "500",
-      "description": "Description test",
-      "photo": { "p1": "images/real-estate-properties/NOR_prop1.jpg" }
+      "description": "Ce splendide château en Normandie est une œuvre architecturale majestueuse. Avec ses 12 pièces magnifiquement décorées, il incarne l'élégance intemporelle. Les vastes salons ornés de cheminées en marbre, les chambres spacieuses et la bibliothèque richement aménagée témoignent du raffinement de cette demeure. Les jardins à la française, les douves pittoresques et les vues panoramiques sur la campagne normande ajoutent à son charme. Cette propriété est une invitation à vivre une vie de luxe et de prestige.",
+      "photo": {
+        "p1": "images/real-estate-properties/NOR_prop3.jpg",
+        "description": "Splendide château de Normandie à Bayeux"
+      }
+    },
+    "id_1941": {
+      "transaction": "Location",
+      "title": "Villa en bord de mer",
+      "price": "10 000",
+      "location": "Arcachon",
+      "region": "Nouvelle-Aquitaine",
+      "pieces": "6",
+      "bedrooms": "4",
+      "surface": "140",
+      "description": "Cette villa en bord de mer à Arcachon est un bijou de luxe. Elle offre 4 chambres, un salon avec vue sur l'océan, une cuisine haut de gamme et un accès direct à la plage. Les espaces extérieurs comprennent une terrasse ensoleillée et une piscine privée.",
+      "photo": {
+        "p1": "images/real-estate-properties/NAQ_prop1.jpg",
+        "description": "Villa en bord de mer à Arcachon"
+      }
+    },
+    "id_52164": {
+      "transaction": "Achat",
+      "title": "Villa d'architecte",
+      "price": "4 000 000",
+      "location": "Biarritz",
+      "region": "Nouvelle-Aquitaine",
+      "pieces": "6",
+      "bedrooms": "4",
+      "surface": "130",
+      "description": "Cette villa d'architecte à Biarritz offre une vie luxueuse à proximité de la plage. Elle comprend 6 chambres, un vaste salon avec vue sur l'océan, une cuisine moderne, une piscine extérieure et des jardins paysagers. La villa incarne le style de vie balnéaire chic.",
+      "photo": {
+        "p1": "images/real-estate-properties/NAQ_prop2.jpg",
+        "description": "Villa d'architecte à Biarritz"
+      }
+    },
+    "id_44018": {
+      "transaction": "Location",
+      "title": "Maison de campagne",
+      "price": "5 000",
+      "location": "Bergerac",
+      "region": "Nouvelle-Aquitaine",
+      "pieces": "8",
+      "bedrooms": "5",
+      "surface": "170",
+      "description": "Cette maison de campagne dans le Périgord offre un refuge de luxe au cœur de la nature. Elle propose 5 chambres, des espaces de vie spacieux, un grand terrain privé et une piscine extérieure.",
+      "photo": {
+        "p1": "images/real-estate-properties/NAQ_prop3.jpg",
+        "description": "Maison de campagne à Bergerac"
+      }
+    },
+    "id_5065": {
+      "transaction": "Achat",
+      "title": "Appartement avec vue sur la mer",
+      "price": "1 300 000",
+      "location": "Le Cap d'Agde",
+      "region": "Occitanie",
+      "pieces": "4",
+      "bedrooms": "2",
+      "surface": "110",
+      "description": "Cet appartement de 4 pièces au Cap d'Agde est une oasis de confort en bord de mer. Il offre une vue panoramique sur la Méditerranée depuis son balcon spacieux. À l'intérieur, vous trouverez un salon lumineux, une cuisine moderne équipée, et 2 chambres élégantes. Avec un accès direct à la plage, c'est l'endroit idéal pour profiter du soleil et de la mer Méditerranée. Cet appartement incarne le charme balnéaire du Cap d'Agde.",
+      "photo": {
+        "p1": "images/real-estate-properties/OCC_prop1.jpg",
+        "description": "Appartement avec vue sur la mer au Cap d'Agde"
+      }
+    },
+    "id_6383": {
+      "transaction": "Location",
+      "title": "Appartement avec vue panoramique",
+      "price": "8 000",
+      "location": "Le Grau-du-Roi",
+      "region": "Occitanie",
+      "pieces": "5",
+      "bedrooms": "3",
+      "surface": "150",
+      "description": "Cet appartement de 5 pièces au Grau du Roi est une perle rare en front de mer. Depuis sa grande terrasse, vous pourrez profiter d'une vue imprenable sur la mer Méditerranée, créant un cadre idyllique pour des moments de détente en plein air. L'intérieur de l'appartement est tout aussi impressionnant, avec un salon spacieux, une cuisine moderne entièrement équipée et trois chambres confortables. Cet appartement offre une vie balnéaire de luxe au cœur du Grau du Roi, à quelques pas de la plage et des commodités locales.",
+      "photo": {
+        "p1": "images/real-estate-properties/OCC_prop2.jpg",
+        "description": "Appartement avec vue panoramique au Grau-du-Roi"
+      }
+    },
+    "id_64710": {
+      "transaction": "Achat",
+      "title": "Domaine viticole dans les Cévennes",
+      "price": "3 000 000",
+      "location": "Anduze",
+      "region": "Occitanie",
+      "pieces": "8",
+      "bedrooms": "5",
+      "surface": "170",
+      "description": "Ce domaine viticole dans les Cévennes est une propriété unique. Il comprend une maison du 19ème siècle avec 5 chambres, des vignes en production, une cave à vin, une piscine extérieure et des jardins paysagers. Le domaine offre une opportunité de vivre au cœur de la région viticole de l'Occitanie.",
+      "photo": {
+        "p1": "images/real-estate-properties/OCC_prop3.jpg",
+        "description": "Domaine viticole à Anduze dans les Cévennes"
+      }
+    },
+    "id_56029": {
+      "transaction": "Location",
+      "title": "Villa en bord de mer",
+      "price": "5 000",
+      "location": "Pornic",
+      "region": "Pays de la Loire",
+      "pieces": "7",
+      "bedrooms": "5",
+      "surface": "350",
+      "description": "Cette élégante villa en bord de mer à Pornic offre une vue panoramique sur l'océan Atlantique. La villa comprend cinq chambres spacieuses avec salles de bains attenantes, un salon lumineux avec vue sur la mer, une cuisine moderne entièrement équipée et un accès direct à la plage de sable fin. Le jardin paysager est agrémenté de terrasses ensoleillées, d'une piscine chauffée et d'un espace barbecue. Vous pourrez profiter de la vie balnéaire tout en explorant les charmes de la côte vendéenne.",
+      "photo": {
+        "p1": "images/real-estate-properties/PDLL_prop1.jpg",
+        "description": "Villa en bord de mer à Pornic"
+      }
+    },
+    "id_59747": {
+      "transaction": "Achat",
+      "title": "Château historique dans la vallée de la Loire",
+      "price": "7 000 000",
+      "location": "Amboise",
+      "region": "Pays de la Loire",
+      "pieces": "10",
+      "bedrooms": "6",
+      "surface": "600",
+      "description": "Ce château historique du 17ème siècle est une véritable œuvre d'art architecturale située au cœur de la vallée de la Loire. La propriété comprend dix chambres majestueuses, des salons élégants avec des plafonds voûtés, une grande salle à manger, une cuisine gastronomique et une bibliothèque impressionnante. Le château est entouré d'un parc paysager de plusieurs hectares, de jardins à la française et d'un vignoble privé. Il offre une expérience de vie châtelaine inégalée dans l'une des régions les plus emblématiques de France.",
+      "photo": {
+        "p1": "images/real-estate-properties/PDLL_prop2.jpg",
+        "description": "Château historique dans la vallée de la Loire à Amboise"
+      }
+    },
+    "id_8963": {
+      "transaction": "Location",
+      "title": "Château de luxe dans les vignobles",
+      "price": "10 000",
+      "location": "Anjou",
+      "region": "Pays de la Loire",
+      "pieces": "9",
+      "bedrooms": "5",
+      "surface": "500",
+      "description": "Ce château de luxe au cœur des vignobles de l'Anjou offre une expérience de séjour inoubliable. Le château comprend cinq chambres élégantes, des salons somptueux, une salle à manger formelle, une cuisine gastronomique et un parc privé avec des vignes. Les visiteurs peuvent déguster des vins produits sur place et explorer la belle campagne de l'Anjou. Le château est également proche de la charmante ville d'Angers et de son château médiéval.",
+      "photo": {
+        "p1": "images/real-estate-properties/PDLL_prop3.jpg",
+        "description": "Château de luxe dans les vignobles à Anjou"
+      }
+    },
+    "id_34807": {
+      "transaction": "Achat",
+      "title": "Villa d'architecte moderne",
+      "price": "8 000 000",
+      "location": "Cannes",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "pieces": "10",
+      "bedrooms": "6",
+      "surface": "400",
+      "description": "Cette villa d'architecte ultramoderne offre un design contemporain et des vues spectaculaires sur la baie de Cannes. La propriété dispose de six chambres avec salles de bains privatives, d'un vaste espace de vie ouvert, d'une cuisine ultramoderne, d'une piscine à débordement, d'un ascenseur privé et d'une salle de cinéma. Les grandes baies vitrées permettent de profiter pleinement de la vue panoramique. La villa se trouve à quelques minutes du centre-ville de Cannes.",
+      "photo": {
+        "p1": "images/real-estate-properties/PACA_prop1.jpg",
+        "description": "Villa d'architecte moderne à Cannes"
+      }
+    },
+    "id_7870": {
+      "transaction": "Location",
+      "title": "Villa de prestige avec vue panoramique sur la mer",
+      "price": "15 000",
+      "location": "Cannes",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "pieces": "10",
+      "bedrooms": "5",
+      "surface": "450",
+      "description": "Cette somptueuse villa contemporaine offre une vue panoramique à couper le souffle sur la Méditerranée. Avec une surface habitable de 450 m², elle comprend cinq chambres spacieuses avec salles de bains attenantes, une cuisine gastronomique entièrement équipée, une piscine à débordement, un cinéma privé, une salle de sport et un jardin luxuriant. Le design intérieur est impeccable, alliant élégance moderne et touches provençales. La villa est idéalement située à quelques minutes du centre de Cannes et de ses plages de sable fin.",
+      "photo": {
+        "p1": "images/real-estate-properties/PACA_prop2.jpg",
+        "description": "Villa de prestige avec vue panoramique sur la mer à Cannes"
+      }
+    },
+    "id_12597": {
+      "transaction": "Achat",
+      "title": "Mas provençal de luxe",
+      "price": "4 500 000",
+      "location": "Gordes",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "pieces": "10",
+      "bedrooms": "6",
+      "surface": "500",
+      "description": "Ce mas provençal authentique du 17ème siècle a été magnifiquement restauré pour offrir le summum du luxe et du confort. La propriété comprend six chambres, un grand salon avec poutres apparentes, une cuisine traditionnelle, une piscine chauffée, un court de tennis et un jardin luxuriant avec des oliviers centenaires. Situé dans le pittoresque village de Gordes, cette maison est un havre de paix au cœur de la Provence.",
+      "photo": {
+        "p1": "images/real-estate-properties/PACA_prop3.jpg",
+        "description": "Mas provençal de luxe à Gordes"
+      }
     }
   },
   "offices": {
-    "id_54487": {
+    "id_62380": {
       "name": "Théo LEBEN - Valence",
       "description": "Valence offre une belle combinaison de charme historique et de modernité. Son centre-ville pittoresque est imprégné d'histoire, avec une cathédrale majestueuse et des ruelles pavées charmantes. La région est réputée pour ses vignobles et sa gastronomie, faisant le bonheur des amateurs de cuisine et de vins. La proximité du fleuve Rhône et des montagnes du Vercors offre de nombreuses possibilités d'activités de plein air. Vivre à Valence permet de profiter d'une qualité de vie agréable, d'une ambiance conviviale et d'une accessibilité aisée à des paysages variés et de multiples découvertes culturelles.",
       "phone": "+33(0)1 23 45 67 89",
@@ -139,7 +604,7 @@
         "description": "Cathédrale Saint-Apollinaire de Valence"
       }
     },
-    "id_32858": {
+    "id_61073": {
       "name": "Théo LEBEN - Dijon",
       "description": "Dijon, en France, séduit par son riche patrimoine historique et culturel. Son centre-ville médiéval est magnifiquement préservé, offrant une architecture impressionnante et des ruelles pittoresques. Célèbre pour sa moutarde et sa cuisine bourguignonne, Dijon ravit les gourmets avec ses délices culinaires et ses marchés animés. La ville propose également de nombreux événements culturels et festivals, créant une vie sociale dynamique.En tant que capitale de la région Bourgogne-Franche-Comté, Dijon offre des opportunités professionnelles dans divers secteurs, notamment l'industrie, la recherche et l'enseignement supérieur. Sa taille moyenne permet de profiter d'un rythme de vie agréable, avec des parcs et espaces verts pour se détendre. Enfin, la ville est bien desservie par les transports en commun, facilitant les déplacements locaux et les voyages vers d'autres régions de France et de l'Europe. Vivre à Dijon signifie s'immerger dans l'histoire, la gastronomie et le dynamisme d'une ville à taille humaine, tout en bénéficiant d'un cadre de vie plaisant.",
       "phone": "+33(0)1 23 45 67 89",
@@ -156,7 +621,7 @@
         "description": "Église Notre-Dame de Dijon"
       }
     },
-    "id_28678": {
+    "id_13067": {
       "name": "Théo LEBEN - Bretagne",
       "description": "Rennes, en France, séduit par son atmosphère jeune et dynamique en tant que ville universitaire. Son centre historique préservé, avec ses maisons à pans de bois et ses rues pavées, ajoute un charme indéniable à la ville. Riche en événements culturels et festivals, Rennes offre une vie culturelle animée et diversifiée. La scène gastronomique florissante met en avant les produits locaux de Bretagne, offrant une cuisine délicieuse et variée. En tant que capitale de la région Bretagne, Rennes est un centre économique important avec des opportunités professionnelles dans les secteurs du numérique, de la recherche et des industries créatives. Dotée d'un excellent réseau de transports en commun, la ville facilite les déplacements et est bien reliée à d'autres villes françaises. Habiter à Rennes permet de profiter d'une qualité de vie élevée, d'un environnement vert agréable et d'une ambiance conviviale, attirant les résidents de tous horizons.",
       "phone": "+33(0)1 23 45 67 89",
@@ -173,7 +638,7 @@
         "description": "Statue de Leperdit sur la Place du Champ Jacquet à Rennes"
       }
     },
-    "id_37689": {
+    "id_25255": {
       "name": "Théo LEBEN - Orléans",
       "description": "Orléans offre une attractivité unique grâce à son riche héritage historique, notamment lié à Jeanne d'Arc. La ville possède un centre médiéval charmant avec des rues pavées et des maisons à colombages. Son emplacement privilégié le long de la Loire en fait un cadre pittoresque pour les activités de plein air L'ambiance conviviale et la vie culturelle animée, avec des festivals et des événements tout au long de l'année, créent une atmosphère dynamique. Orléans est également un centre économique en plein essor, offrant des opportunités professionnelles dans des secteurs variés. La proximité de Paris, ainsi que les excellentes liaisons de transport, en font un point de départ idéal pour explorer la région Centre-Val de Loire et d'autres parties de la France. Habiter à Orléans permet de profiter d'un mélange équilibré de tradition, de modernité et de qualité de vie, attirant les résidents en quête de diversité et d'authenticité.",
       "phone": "+33(0)1 23 45 67 89",
@@ -190,7 +655,7 @@
         "description": "Statue de Jeanne d'Arc sur la Place du Martroi à Orléans"
       }
     },
-    "id_32180": {
+    "id_31504": {
       "name": "Théo LEBEN - Nancy",
       "description": "Nancy est une ville attrayante qui séduit par son élégance et son patrimoine architectural remarquable, représenté notamment par la célèbre Place Stanislas. Son centre historique offre une atmosphère pittoresque avec ses rues pavées et ses bâtiments de style Art Nouveau. Nancy abrite une vie culturelle dynamique avec de nombreux musées, théâtres et festivals tout au long de l'année. En tant que ville étudiante, Nancy offre un environnement jeune et animé, avec plusieurs établissements d'enseignement supérieur réputés. Elle est également un pôle économique majeur dans la région Grand Est, offrant des opportunités professionnelles diversifiées. La ville bénéficie d'un excellent réseau de transports en commun, ce qui facilite les déplacements locaux. Vivre à Nancy signifie profiter d'un cadre de vie agréable, avec une cuisine riche en spécialités lorraines, ainsi que la proximité de la nature avec les parcs et les espaces verts environnants.",
       "phone": "+33(0)1 23 45 67 89",
@@ -207,7 +672,7 @@
         "description": "Place Stanislas et ses grilles à Nancy"
       }
     },
-    "id_45425": {
+    "id_34939": {
       "name": "Théo LEBEN - Amiens",
       "description": "Amiens charme les visiteurs par sa cathédrale gothique classée au patrimoine mondial de l'UNESCO et ses canaux pittoresques. La ville offre un mélange équilibré entre histoire et modernité avec son centre médiéval bien préservé et ses infrastructures contemporaines. Amiens propose une vie culturelle riche, avec des festivals, des événements artistiques et une scène musicale animée. En tant que ville étudiante, Amiens est dynamique et animée, avec plusieurs universités et écoles supérieures. Elle offre également un coût de la vie plus abordable que dans certaines grandes villes françaises. Sa position géographique avantageuse facilite les déplacements vers Paris, Lille et d'autres destinations en France et en Europe. Habiter à Amiens permet de profiter d'une ambiance chaleureuse, d'une cuisine délicieuse, et d'une atmosphère conviviale, attirant les résidents en quête de culture, d'éducation et de qualité de vie.",
       "phone": "+33(0)1 23 45 67 89",
@@ -224,7 +689,7 @@
         "description": "Cathédrale Notre-Dame d'Amiens"
       }
     },
-    "id_36587": {
+    "id_59375": {
       "name": "Théo LEBEN - Paris 2ème",
       "description": "Paris attire des millions de visiteurs chaque année avec son charme intemporel et son patrimoine culturel unique. La ville est réputée pour ses monuments emblématiques tels que la Tour Eiffel, le Louvre et Notre-Dame. Paris offre une scène artistique et culturelle dynamique avec ses musées, théâtres et galeries d'art renommées. En tant que centre économique majeur, Paris propose une multitude d'opportunités professionnelles dans divers secteurs, notamment la mode, la finance et la technologie. Vivre à Paris permet de profiter d'une vie cosmopolite, avec une offre gastronomique exceptionnelle et une vie nocturne animée. La ville offre également de magnifiques parcs et jardins, ainsi qu'un système de transport en commun bien développé, facilitant les déplacements dans la métropole. Habiter à Paris signifie s'immerger dans une atmosphère riche en histoire, en culture et en opportunités, attirant les résidents du monde entier en quête d'expériences inoubliables.",
       "phone": "+33(0)1 23 45 67 89",
@@ -241,7 +706,7 @@
         "description": "Façade du palais Garnier à Paris"
       }
     },
-    "id_28704": {
+    "id_22013": {
       "name": "Théo LEBEN - Deauville",
       "description": "Deauville, en France, est une destination balnéaire de renommée internationale qui attire les visiteurs avec ses plages de sable fin, ses célèbres planches en bois et son charme élégant. La ville offre un cadre idyllique avec ses somptueuses villas, ses hôtels de luxe et son casino emblématique. Deauville propose une vie culturelle animée avec son festival du cinéma américain, ses événements équestres et ses galeries d'art. En tant que station balnéaire prisée, Deauville offre un cadre de vie paisible et agréable, propice aux activités de plein air et à la détente. Les résidents peuvent profiter d'une cuisine raffinée, de produits locaux de qualité et de marchés animés. De plus, la proximité de Paris et les excellentes connexions de transport en font une destination facilement accessible. Habiter à Deauville offre un mélange de prestige, de détente et de loisirs, attirant ceux en quête d'un mode de vie élégant et ressourçant au bord de la mer.",
       "phone": "+33(0)1 23 45 67 89",
@@ -258,7 +723,7 @@
         "description": "Casino de Deauville"
       }
     },
-    "id_6689": {
+    "id_43397": {
       "name": "Théo LEBEN - Biarritz",
       "description": "Biarritz, située sur la côte basque en France, séduit par son charme balnéaire et son ambiance élégante. Célèbre pour ses plages de sable fin, ses spots de surf renommés et ses vagues spectaculaires, Biarritz attire les amateurs d'activités nautiques et de détente. La ville est également réputée pour ses somptueux hôtels, ses boutiques de luxe et ses restaurants gastronomiques. Vivre à Biarritz offre un cadre de vie privilégié, entre océan et montagnes, avec un climat doux toute l'année. Les résidents peuvent profiter d'un mode de vie sain, avec de nombreuses possibilités de randonnées, de sports en plein air et d'événements culturels. Biarritz est également bien reliée à d'autres villes européennes grâce à son aéroport international. Habiter à Biarritz permet de s'imprégner de l'élégance balnéaire, de la beauté naturelle et de la qualité de vie, attirant ceux en quête de détente, d'aventures et de raffinement.",
       "phone": "+33(0)1 23 45 67 89",
@@ -275,7 +740,7 @@
         "description": "La Roche Ronde, située à quelques mètres de la plage de Miramar à Biarritz"
       }
     },
-    "id_37927": {
+    "id_21614": {
       "name": "Théo LEBEN - Toulouse",
       "description": "Toulouse, surnommée la \"Ville rose\", est une destination attractive en France, alliant un riche patrimoine historique à une modernité florissante. La ville abrite d'imposants monuments tels que la basilique Saint-Sernin et le Capitole. Réputée pour son ambiance conviviale, Toulouse offre une vie culturelle dynamique avec ses festivals, théâtres et musées. En tant que pôle économique majeur, Toulouse est le siège d'entreprises aérospatiales et technologiques de renommée mondiale. Cela crée de nombreuses opportunités professionnelles et attire des talents internationaux. La région toulousaine bénéficie également d'un climat méditerranéen agréable et de la proximité des montagnes des Pyrénées. Habiter à Toulouse permet de profiter d'un équilibre entre tradition et modernité, d'une excellente cuisine du Sud-Ouest et de multiples activités culturelles et de loisirs, séduisant ainsi les résidents en quête d'une vie citadine dynamique et épanouissante.",
       "phone": "+33(0)1 23 45 67 89",
@@ -292,7 +757,7 @@
         "description": "Musée des augustins à Toulouse"
       }
     },
-    "id_52378": {
+    "id_36043": {
       "name": "Théo LEBEN - Nantes",
       "description": "Nantes, en France, est une ville attractive qui combine un patrimoine historique riche avec une ambiance moderne et créative. Son centre historique offre des rues pittoresques et des monuments emblématiques tels que le Château des Ducs de Bretagne. Nantes se distingue par son dynamisme culturel, avec de nombreux événements artistiques et festivals. En tant que ville étudiante, Nantes propose une vie animée et jeune, avec plusieurs universités et écoles supérieures. Elle offre également de nombreuses opportunités professionnelles dans des secteurs diversifiés, tels que les industries créatives, la technologie et l'innovation. Située à proximité de la côte atlantique, Nantes offre un cadre de vie agréable, avec des espaces verts, des bords de la Loire et des activités de plein air. Vivre à Nantes permet de profiter d'une atmosphère conviviale, d'une cuisine délicieuse et de connexions de transport pratiques vers d'autres régions de France et d'Europe, attirant ainsi les résidents en quête de qualité de vie et de diversité culturelle.",
       "phone": "+33(0)1 23 45 67 89",
@@ -309,7 +774,7 @@
         "description": "Vue aérienne du château des ducs de Bretagne à Nantes"
       }
     },
-    "id_30255": {
+    "id_30247": {
       "name": "Théo LEBEN - Provence",
       "description": "La Provence, une région du sud de la France, est irrésistiblement attrayante avec ses paysages pittoresques, ses champs de lavande et ses vignobles. Son climat méditerranéen doux et ensoleillé ajoute à son charme. Cette région regorge de villages pittoresques, de marchés animés et de monuments historiques. Habiter en Provence offre une qualité de vie agréable, mêlant détente et richesse culturelle. La gastronomie provençale, avec ses produits locaux et ses vins renommés, est un délice pour les sens. Les loisirs en plein air abondent, des randonnées dans les montagnes aux baignades dans la mer. L'atmosphère conviviale et authentique de la Provence attire les résidents en quête d'un mode de vie harmonieux, en communion avec la nature et l'art de vivre à la française.",
       "phone": "+33(0)1 23 45 67 89",

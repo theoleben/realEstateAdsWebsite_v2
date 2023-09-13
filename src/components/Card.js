@@ -9,7 +9,7 @@ const Card = (props) => {
 
   return (
     <div className={cardStyle}>
-      <img src={props.data.photo.p1} alt="Description" />
+      <img src={props.data.photo.p1} alt={props.data.photo.description} />
       <div className={classes.details}>
         <p>{`${props.data.title}, ${props.data.location}`}</p>
         <span

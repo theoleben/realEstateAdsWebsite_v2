@@ -56,6 +56,7 @@ export const RealEstateProvider = (props) => {
             return {
               ...element,
               photo: {
+                ...element.photo,
                 p1: responses[index],
               },
             };

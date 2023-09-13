@@ -3,7 +3,7 @@ import classes from "./RealEstateDetails.module.css";
 import { Link, useParams } from "react-router-dom";
 import { BiArea } from "react-icons/bi";
 import { PiPuzzlePieceBold } from "react-icons/pi";
-import { MdOutlineEuro } from "react-icons/md";
+import { MdOutlineEuro, MdOutlineBedroomParent } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaRegMap } from "react-icons/fa6";
 import RealEstateContext from "../store/real-estate-context";
@@ -29,7 +29,7 @@ const RealEstateDetail = () => {
       {found && (
         <div className={classes.container}>
           <h2>{found.title}</h2>
-          <img src={found.photo.p1} alt="Description" />
+          <img src={found.photo.p1} alt={found.photo.description} />
           <ul>
             <li>
               <IoLocationOutline />
@@ -54,6 +54,10 @@ const RealEstateDetail = () => {
                   ? `${found.price} €`
                   : `${found.price} € / mois`}
               </span>
+            </li>
+            <li>
+              <MdOutlineBedroomParent />
+              <span>{found.bedrooms} chambres</span>
             </li>
           </ul>
           <div>
