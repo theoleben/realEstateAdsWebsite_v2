@@ -122,3 +122,10 @@ a.active::after {
     bottom: -8px;
   }
 }
+
+/* Custom breakpoint */
+@media screen and (max-width: 299.98px) {
+  .link {
+    left: 25px;
+  }
+}

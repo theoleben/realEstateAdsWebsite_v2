@@ -1,8 +1,11 @@
-import React, { Fragment } from "react";
+import React, { Fragment, lazy } from "react";
 import classes from "./MainNavigation.module.css";
-import LogoBanner from "./LogoBanner";
+// import LogoBanner from "./LogoBanner";
 import { Link, NavLink } from "react-router-dom";
 import { MdOutlineRealEstateAgent } from "react-icons/md";
+
+// /static/js/src_components_LogoBanner_js.chunk.js
+const LogoBanner = lazy(() => import("./LogoBanner"));
 
 const MainNavigation = () => {
   // console.log("MainNavigation");

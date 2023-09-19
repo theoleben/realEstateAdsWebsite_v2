@@ -3,18 +3,47 @@ import React from "react";
 const Facebook = (props) => {
   return (
     <svg
-      width="800px"
-      height="800px"
-      viewBox="0 0 24 24"
+      width="733.33331"
+      height="733.33331"
+      viewBox="0 0 21.999999 21.999999"
       fill="none"
+      version="1.1"
+      id="svg170"
+      sodipodidocname="facebook-svgrepo-com_modified.svg"
+      inkscapeversion="1.2.2 (732a01da63, 2022-12-09)"
+      xmlnsinkscape="http://www.inkscape.org/namespaces/inkscape"
+      xmlnssodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
       xmlns="http://www.w3.org/2000/svg"
+      xmlnsvg="http://www.w3.org/2000/svg"
       className={props.className}
     >
+      <defs id="defs174" />
+      <sodipodinamedview
+        id="namedview172"
+        pagecolor="#505050"
+        bordercolor="#eeeeee"
+        borderopacity="1"
+        inkscapeshowpageshadow="0"
+        inkscapepageopacity="0"
+        inkscapepagecheckerboard="0"
+        inkscapedeskcolor="#505050"
+        showgrid="false"
+        inkscapezoom="0.98125"
+        inkscapecx="366.36943"
+        inkscapecy="366.36943"
+        inkscapewindow-width="1920"
+        inkscapewindow-height="1001"
+        inkscapewindow-x="-9"
+        inkscapewindow-y="-9"
+        inkscapewindow-maximized="1"
+        inkscapecurrent-layer="svg170"
+      />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H15V13.9999H17.0762C17.5066 13.9999 17.8887 13.7245 18.0249 13.3161L18.4679 11.9871C18.6298 11.5014 18.2683 10.9999 17.7564 10.9999H15V8.99992C15 8.49992 15.5 7.99992 16 7.99992H18C18.5523 7.99992 19 7.5522 19 6.99992V6.31393C19 5.99091 18.7937 5.7013 18.4813 5.61887C17.1705 5.27295 16 5.27295 16 5.27295C13.5 5.27295 12 6.99992 12 8.49992V10.9999H10C9.44772 10.9999 9 11.4476 9 11.9999V12.9999C9 13.5522 9.44771 13.9999 10 13.9999H12V21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
-        fill="#0F0F0F"
+        d="m 19,0 c 1.6569,0 3,1.34315 3,3 v 16 c 0,1.6569 -1.3431,3 -3,3 H 3 C 1.34315,22 0,20.6569 0,19 V 3 C 0,1.34315 1.34315,0 3,0 Z m 0,2 c 0.5523,0 1,0.44772 1,1 v 16 c 0,0.5523 -0.4477,1 -1,1 h -5 v -7.0001 h 2.0762 c 0.4304,0 0.8125,-0.2754 0.9487,-0.6838 l 0.443,-1.329 C 17.6298,10.5014 17.2683,9.9999 16.7564,9.9999 H 14 V 7.99992 c 0,-0.5 0.5,-1 1,-1 h 2 c 0.5523,0 1,-0.44772 1,-1 V 5.31393 C 18,4.99091 17.7937,4.7013 17.4813,4.61887 16.1705,4.27295 15,4.27295 15,4.27295 c -2.5,0 -4,1.72697 -4,3.22697 V 9.9999 H 9 c -0.55228,0 -1,0.4477 -1,1 v 1 c 0,0.5523 0.44771,1 1,1 h 2 V 20 H 3 C 2.44772,20 2,19.5523 2,19 V 3 C 2,2.44772 2.44772,2 3,2 Z"
+        fill="#0f0f0f"
+        id="path168"
       />
     </svg>
   );

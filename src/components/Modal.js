@@ -17,10 +17,10 @@ const ModalContent = (props) => {
           <b>Nom</b>: {props.data.name}
         </span>
         <span>
-          <b>Prénom</b>: {props.data.surname}
+          <b>Prénom</b>: {props.data.firstName}
         </span>
         <span>
-          <b>Adresse email</b>: {props.data.mail}
+          <b>Adresse email</b>: {props.data.email}
         </span>
         <span>
           <b>Téléphone</b>: {props.data.phone}

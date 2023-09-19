@@ -1,8 +1,15 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, lazy, useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import MainNavigation from "../components/MainNavigation";
-import Footer from "../components/Footer";
-import Modal from "../components/Modal";
+// import MainNavigation from "../components/MainNavigation";
+// import Footer from "../components/Footer";
+// import Modal from "../components/Modal";
+
+// static/js/src_components_MainNavigation_js.chunk.js
+const MainNavigation = lazy(() => import("../components/MainNavigation"));
+// /static/js/src_components_Footer_js.chunk.js
+const Footer = lazy(() => import("../components/Footer"));
+// /static/js/src_components_Modal_js.chunk.js
+const Modal = lazy(() => import("../components/Modal"));
 
 const Root = () => {
   const [cartIsShown, setCartIsShown] = useState(false);

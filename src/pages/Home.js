@@ -1,8 +1,16 @@
-import React, { useContext, useEffect, useMemo, useState } from "react";
+import React, {
+  /*lazy,*/ useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import classes from "./Home.module.css";
 import Card from "../components/Card";
 import RealEstateContext from "../store/real-estate-context";
 import picturesHome from "../data/homePictures";
+
+// Useless
+// const Card = lazy(() => import("../components/Card"));
 
 const Home = () => {
   // console.log("Home");

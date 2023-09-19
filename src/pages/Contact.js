@@ -4,8 +4,8 @@ import classes from "./Contact.module.css";
 
 const initialState = {
   name: "",
-  surname: "",
-  mail: "",
+  firstName: "",
+  email: "",
   phone: "",
   message: "",
 };
@@ -15,12 +15,12 @@ const formReducer = (state, action) => {
     return { ...state, name: action.value };
   }
 
-  if (action.type === "SURNAME_CHANGE") {
-    return { ...state, surname: action.value };
+  if (action.type === "FIRST_NAME_CHANGE") {
+    return { ...state, firstName: action.value };
   }
 
-  if (action.type === "MAIL_CHANGE") {
-    return { ...state, mail: action.value };
+  if (action.type === "EMAIL_CHANGE") {
+    return { ...state, email: action.value };
   }
 
   if (action.type === "PHONE_CHANGE") {
@@ -58,14 +58,14 @@ const Contact = () => {
     dispatchForm({ type: "NAME_CHANGE", value: event.target.value });
   };
 
-  const surnameChangeHandler = (event) => {
+  const firstNameChangeHandler = (event) => {
     // console.log(event.target.value);
-    dispatchForm({ type: "SURNAME_CHANGE", value: event.target.value });
+    dispatchForm({ type: "FIRST_NAME_CHANGE", value: event.target.value });
   };
 
-  const mailChangeHandler = (event) => {
+  const emailChangeHandler = (event) => {
     // console.log(event.target.value);
-    dispatchForm({ type: "MAIL_CHANGE", value: event.target.value });
+    dispatchForm({ type: "EMAIL_CHANGE", value: event.target.value });
   };
 
   const phoneChangeHandler = (event) => {
@@ -83,6 +83,7 @@ const Contact = () => {
       <h2>Nous contacter</h2>
       <form onSubmit={submitHandler} className={classes.form}>
         <input
+          id="user_name"
           type="text"
           placeholder="Nom *"
           onChange={nameChangeHandler}
@@ -90,26 +91,30 @@ const Contact = () => {
           required
         />
         <input
+          id="user_first_name"
           type="text"
           placeholder="Prénom *"
-          onChange={surnameChangeHandler}
-          value={formState.surname}
+          onChange={firstNameChangeHandler}
+          value={formState.firstName}
           required
         />
         <input
+          id="user_email"
           type="email"
           placeholder="Adresse mail *"
-          onChange={mailChangeHandler}
-          value={formState.mail}
+          onChange={emailChangeHandler}
+          value={formState.email}
           required
         />
         <input
+          id="user_phone"
           type="text"
           placeholder="Téléphone"
           value={formState.phone}
           onChange={phoneChangeHandler}
         />
         <textarea
+          id="user_message"
           // rows="5"
           // cols="33"
           onChange={messageChangeHandler}

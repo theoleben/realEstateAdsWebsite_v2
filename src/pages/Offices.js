@@ -1,7 +1,10 @@
-import React, { useContext } from "react";
+import React, { lazy, useContext } from "react";
 import classes from "./Offices.module.css";
-import Office from "../components/Office";
+// import Office from "../components/Office";
 import RealEstateContext from "../store/real-estate-context";
+
+// /static/js/src_components_Office_js.chunk.js
+const Office = lazy(() => import("../components/Office"));
 
 const Offices = () => {
   // console.log("Offices");
@@ -12,7 +15,7 @@ const Offices = () => {
 
   return (
     <>
-      <h2>Nos agences immoblières</h2>
+      <h2>Nos agences immobilières</h2>
       <ul className={classes.container}>
         {officesData.map((office) => {
           // console.log(office);

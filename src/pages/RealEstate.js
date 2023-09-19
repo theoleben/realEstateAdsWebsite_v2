@@ -1,5 +1,6 @@
 import React, {
   Fragment,
+  // lazy,
   useCallback,
   useContext,
   useEffect,
@@ -12,7 +13,9 @@ import Card from "../components/Card";
 import { useLocation } from "react-router-dom";
 import RealEstateContext from "../store/real-estate-context";
 
-const INCORRECT_VALUE = "incorrect_value";
+// Useless
+// const Card = lazy(() => import("../components/Card"));
+
 const regions = [
   "Auvergne-Rhône-Alpes",
   "Bourgogne-Franche-Comté",
@@ -35,9 +38,9 @@ const RealEstate = () => {
   const data = ctx.realEstate;
   // console.log(data);
 
-  const [transaction, setTransaction] = useState(INCORRECT_VALUE);
-  const [region, setRegion] = useState(INCORRECT_VALUE);
-  const [bedrooms, setBedrooms] = useState(INCORRECT_VALUE);
+  const [transaction, setTransaction] = useState("");
+  const [region, setRegion] = useState("");
+  const [bedrooms, setBedrooms] = useState("");
   const [surface, setSurface] = useState(0);
   const [budget, setBudget] = useState(0);
   const [filteredRealEstate, setFilteredRealEstate] = useState(data);
@@ -73,14 +76,24 @@ const RealEstate = () => {
 
   const surfaceHandler = (event) => {
     // console.log(event.target.value);
-    const surface = parseInt(event.target.value, 10);
+    let surface = 0;
+    if (event.target.value !== "") {
+      surface = parseInt(event.target.value, 10);
+    }
+
+    // console.log(surface);
     setSurface(surface);
     setEnable(false);
   };
 
   const budgetHandler = (event) => {
     // console.log(event.target.value);
-    const budget = parseInt(event.target.value, 10);
+    let budget = 0;
+    if (event.target.value !== "") {
+      budget = parseInt(event.target.value, 10);
+    }
+
+    // console.log(budget);
     setBudget(budget);
     setEnable(false);
   };
@@ -88,25 +101,26 @@ const RealEstate = () => {
   const searchHandler = useCallback(() => {
     // console.log("** searchHandler **");
     let result = data.filter((realEstate) => {
-      return (
-        transaction === INCORRECT_VALUE ||
-        realEstate.transaction === transaction
-      );
+      return transaction === "" || realEstate.transaction === transaction;
     });
 
     // Region
     result = result.filter((realEstate) => {
-      return region === INCORRECT_VALUE || realEstate.region === region;
+      return region === "" || realEstate.region === region;
     });
 
     // Bedrooms
     result = result.filter((realEstate) => {
-      return bedrooms === INCORRECT_VALUE || realEstate.bedrooms === bedrooms;
+      if (bedrooms === "5+") {
+        return parseInt(realEstate.bedrooms, 10) >= 5;
+      }
+      return bedrooms === "" || realEstate.bedrooms === bedrooms;
     });
 
     // Surface
     result = result.filter((realEstate) => {
-      return parseInt(realEstate.surface, 10) >= surface;
+      const reformattedSurface = realEstate.surface.replaceAll(" ", "");
+      return parseInt(reformattedSurface, 10) >= surface;
     });
 
     // Budget
@@ -146,15 +160,24 @@ const RealEstate = () => {
   return (
     <Fragment>
       <div className={classes.container}>
-        <div className={classes.container2}>
-          <select value={transaction} onChange={transactionHandler}>
-            <option value={INCORRECT_VALUE}>Type de transaction</option>
+        <form className={classes.container2}>
+          <select
+            id="transaction"
+            value={transaction}
+            onChange={transactionHandler}
+          >
+            <option value="">Type de transaction</option>
             <option value="Achat">Achat</option>
             <option value="Location">Location</option>
           </select>
 
-          <select value={region} onChange={regionHandler}>
-            <option value={INCORRECT_VALUE}>Régions</option>
+          <select
+            id="region"
+            value={region}
+            onChange={regionHandler}
+            autoComplete="off"
+          >
+            <option value="">Régions</option>
             {regions.map((element) => {
               const id = Math.random();
               return (
@@ -165,8 +188,8 @@ const RealEstate = () => {
             })}
           </select>
 
-          <select value={bedrooms} onChange={bedroomsHandler}>
-            <option value={INCORRECT_VALUE}>Nombre de chambres</option>
+          <select id="bedrooms" value={bedrooms} onChange={bedroomsHandler}>
+            <option value="">Nombre de chambres</option>
             <option value="1">1 chambre</option>
             <option value="2">2 chambres</option>
             <option value="3">3 chambres</option>
@@ -177,6 +200,7 @@ const RealEstate = () => {
           <div className={classes["container-input"]}>
             <span>m²</span>
             <input
+              id="surface"
               type="number"
               min="0"
               placeholder="Surface min"
@@ -187,6 +211,7 @@ const RealEstate = () => {
           <div className={classes["container-input"]}>
             <span>€</span>
             <input
+              id="budget"
               type="number"
               min="0"
               placeholder="Budget max"
@@ -200,7 +225,7 @@ const RealEstate = () => {
               Rechercher
             </button>
           </div>
-        </div>
+        </form>
       </div>
 
       <section className={classes.container3}>
