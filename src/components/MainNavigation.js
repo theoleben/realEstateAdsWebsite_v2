@@ -11,7 +11,7 @@ const MainNavigation = () => {
   // console.log("MainNavigation");
   return (
     <Fragment>
-      <Link to="" className={classes.link}>
+      <Link to="" className={classes.link} data-testid="real-estate-agent-icon">
         <MdOutlineRealEstateAgent className={classes.logo} />
       </Link>
       <LogoBanner />
